@@ -54,13 +54,24 @@ Siga as etapas abaixo para configurar o projeto localmente:
 ## 📂 Estrutura do Projeto
 ```
 stardew-valley-wiki/
-├── public/                     # Arquivos públicos
-│   └── images/                 # Imagens de personagens e itens
+├── public/                     
+│   ├── images/                 # Imagens de personagens e itens (adicionar imagens conforme necessário)
 ├── src/                        
 │   ├── components/             # Componentes reutilizáveis
-│   ├── data/                   # Dados JSON para personagens, itens, tarefas e easter eggs
-│   ├── pages/                  # Páginas principais do projeto (Characters, Items, etc.)
-│   ├── services/               # Arquivos de API simulada (dados carregados localmente)
+│   │   ├── CharacterList.js    # Componente para listar personagens
+│   │   ├── ItemList.js         # Componente para listar itens
+│   │   ├── TaskList.js         # Componente para listar tarefas
+│   │   ├── EasterEggList.js    # Componente para listar easter eggs
+│   ├── data/                   
+│   │   └── stardewData.json    # Dados JSON para personagens, itens, tarefas e easter eggs
+│   ├── pages/                  # Páginas principais do projeto
+│   │   ├── Home.js             # Página inicial
+│   │   ├── Characters.js       # Página de personagens
+│   │   ├── Items.js            # Página de itens
+│   │   ├── Tasks.js            # Página de tarefas
+│   │   ├── EasterEggs.js       # Página de easter eggs
+│   ├── services/               
+│   │   └── dataService.js      # Serviço para carregar dados JSON
 │   ├── App.js                  # Configuração das rotas principais
 │   └── index.js                # Arquivo de entrada do React
 ├── README.md                   # Documentação do projeto

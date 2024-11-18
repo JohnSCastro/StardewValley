@@ -1,0 +1,485 @@
+{
+    "characters": [
+        {
+          "id": 0,
+          "name": "Abigail",
+          "image": "Abigail.png",
+          "birthday": "Dia 13 - Outono",
+          "location": "Armazém do Pierre",
+          "description": "Abigail mora na loja com seus pais. Às vezes discute com sua mãe que se preocupa com o 'estilo de vida alternativo' de Abigail. Sua mãe diz o seguinte: 'Eu gostaria que Abby se vestisse mais apropriadamente e parasse de tingir seu cabelo de azul. Ela tem uma maravilhosa cor de cabelo natural, assim como sua avó. Ah, e eu gostaria que ela encontrasse alguns interesses saudáveis, em vez deste absurdo oculto em que ela está.' Você pode encontrar Abigail sozinha no cemitério, ou talvez em uma tempestade à procura de sapos.",
+          "likes": ["Ametista", "Mexido de amoras", "Enguia picante", "Bolo de chocolate", "Pudim de Banana", "Todos os Amores Universais"],
+          "dislikes": ["Raiz-forte", "Açúcar", "Argila", "Azevinho"]
+        },
+        {
+          "id": 1,
+          "name": "Alex",
+          "image": "Alex.png",
+          "birthday": "Dia 13 - Verão",
+          "location": "Estrada do Rio, nº 1",
+          "description": "Alex ama esportes e passar o tempo na praia. Ele é um pouco arrogante e conta vantagem a todos que ele irá ser um atleta profissional. Seria sua arrogância apenas uma fachada para mascarar sua devastadora insegurança? Estaria ele usando seus sonhos com esportes para preencher o vazio deixado pelo desaparecimento de seus pais? Ou seria ele apenas um jovem tentando 'parecer legal?'",
+          "likes": ["Café da manhã completo", "Jantar de salmão", "Todos os Gostos Universais"],
+          "dislikes": ["Amora-silvestre", "Raiz-forte", "Azevinho", "Quartzo"]
+        },
+        {
+          "id": 2,
+          "name": "Elliott",
+          "image": "Elliott.png",
+          "birthday": "Dia 5 - Outono",
+          "location": "Cabana na Praia",
+          "description": "Elliott vive sozinho em uma cabana na praia. Ele é um escritor com uma vida romântica, e sonha em se tornar famoso por seus trabalhos. Ele é um tanto misterioso e muito charmoso.",
+          "likes": ["Lagosta", "Caril de Caranguejo", "Romã", "Tom Kha Soup", "Todos os Amores Universais"],
+          "dislikes": ["Açúcar", "Cogumelo Comum", "Óleos"],
+          "hobbies": ["Escrever", "Tocar piano"]
+        },
+        {
+            "id": 3,
+            "name": "Emily",
+            "image": "Emily.png",
+            "birthday": "Dia 27 - Primavera",
+            "location": "Rua do Salgueiro, nº 2",
+            "description": "Eu só estou trabalhando com o Gus para sobreviver... mas a minha verdadeira paixão é alfaiataria. Eu fiz essas roupas a partir do zero.",
+            "likes": ["Ametista", "Água-marinha", "Tecido", "Esmeralda", "Jade", "Rubi", "Todos os Amores Universais"],
+            "dislikes": ["Enguia frita", "Sorvete", "Pudim de arroz", "Amora-silvestre", "Enguia picante", "Todos os Ódios Universais", "Taco de peixe", "Azevinho", "Rolinhos de arroz", "Jantar de salmão", "Sashimi"]
+          },
+        {
+          "id": 4,
+          "name": "Haley",
+          "image": "Haley.png",
+          "birthday": "Dia 14 - Primavera",
+          "location": "Casa dos Carpenter, Rua da Vila",
+          "description": "Haley é uma garota da cidade grande que gosta de roupas de moda e quer tirar fotos para revistas. Ela é inicialmente superficial, mas acaba se tornando mais amigável.",
+          "likes": ["Coco", "Girassol", "Pão-de-Ló", "Todos os Amores Universais"],
+          "dislikes": ["Picles", "Sopa de Feijão Verde", "Todos os Ódios Universais"],
+          "hobbies": ["Fotografia", "Exploração"]
+        },
+        {
+            "id": 5,
+            "name": "Harvey",
+            "image": "Harvey.png",
+            "birthday": "Dia 14 - Inverno",
+            "location": "Clínica Médica",
+            "description": "Harvey é o médico local de Pelican Town. Ele é um homem dedicado ao seu trabalho e à saúde dos moradores da vila, apesar de ser tímido e reservado.",
+            "likes": ["Café", "Vinho", "Picles", "Óleo de trufas", "Suco de romã", "Todos os Amores Universais"],
+            "dislikes": ["Coral", "Gelo de morango", "Óleo", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 6,
+            "name": "Sam",
+            "image": "Sam.png",
+            "birthday": "Dia 17 - Verão",
+            "location": "Rua do Salgueiro, nº 1",
+            "description": "Sam é um jovem extrovertido e energético que sonha em se tornar um astro do rock. Ele gosta de tocar guitarra e andar de skate.",
+            "likes": ["Pizza", "Cacto", "Fritada de Salmão", "Todos os Amores Universais"],
+            "dislikes": ["Ruibarbo", "Chá Verde", "Sopa de Feijão Verde", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 7,
+            "name": "Sebastian",
+            "image": "Sebastian.png",
+            "birthday": "Dia 10 - Inverno",
+            "location": "Porão da casa de Robin",
+            "description": "Sebastian é um programador e músico reservado que passa muito tempo em seu quarto. Ele é introspectivo e gosta de coisas que envolvem tecnologia e fantasia.",
+            "likes": ["Obsidiana", "Sashimi", "Ametista", "Sorvete", "Todos os Amores Universais"],
+            "dislikes": ["Azevinho", "Picles", "Todas as Flores Universais", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 8,
+            "name": "Shane",
+            "image": "Shane.png",
+            "birthday": "Dia 20 - Primavera",
+            "location": "Casa da Marnie",
+            "description": "Shane trabalha no mercado Joja e costuma ser rude e fechado, mas se abre aos poucos. Ele gosta de cerveja e esportes.",
+            "likes": ["Cerveja", "Pimenta", "Pipoca", "Pizza", "Todos os Amores Universais"],
+            "dislikes": ["Amora-silvestre", "Caranguejo", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 9,
+            "name": "Leah",
+            "image": "Leah.png",
+            "birthday": "Dia 23 - Inverno",
+            "location": "Cabana na Floresta",
+            "description": "Leah é uma artista que vive em uma cabana na floresta, longe da cidade. Ela gosta da vida ao ar livre e é apaixonada por arte e escultura.",
+            "likes": ["Salada", "Vinho", "Trufas", "Tom Kha Soup", "Todos os Amores Universais"],
+            "dislikes": ["Peixe", "Pizza", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 10,
+            "name": "Maru",
+            "image": "Maru.png",
+            "birthday": "Dia 10 - Verão",
+            "location": "Casa do Carpenter",
+            "description": "Maru é inteligente e gosta de tecnologia. Ela trabalha no hospital e ajuda seu pai na loja de carpintaria. Seus interesses incluem robótica e ciência.",
+            "likes": ["Bateria", "Ouro Irídio", "Morango", "Todos os Amores Universais"],
+            "dislikes": ["Milho", "Ruibarbo", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 11,
+            "name": "Jodi",
+            "image": "Jodi.png",
+            "birthday": "Dia 11 - Verão",
+            "location": "Casa de Jodi",
+            "description": "Jodi é uma mulher gentil e atenciosa que vive com seu marido Kent e seus filhos, Sam e Vincent. Ela é conhecida por suas boas ações e por ser uma excelente cozinheira.",
+            "likes": ["Bolo", "Abóbora", "Pizza", "Todos os Amores Universais"],
+            "dislikes": ["Azevinho", "Raiz-forte", "Cerveja"]
+          },
+          {
+            "id": 12,
+            "name": "Kent",
+            "image": "Kent.png",
+            "birthday": "Dia 4 - Verão",
+            "location": "Casa de Jodi",
+            "description": "Kent é o marido de Jodi e pai de Sam e Vincent. Ele voltou para a cidade após servir no exército. Inicialmente, ele é um pouco distante, mas acaba se tornando uma pessoa muito gentil.",
+            "likes": ["Torta de morango", "Café", "Frango frito"],
+            "dislikes": ["Raiz-forte", "Azevinho"]
+          },
+          {
+            "id": 13,
+            "name": "Krobus",
+            "image": "Krobus.png",
+            "birthday": "Dia 1 - Primavera",
+            "location": "Túnel",
+            "description": "Krobus é uma criatura misteriosa que mora nos túneis subterrâneos da cidade. Embora ele seja inicialmente desconfiado, ele é amigável e pode ser um bom amigo se tratado com respeito.",
+            "likes": ["Alga", "Cogumelo", "Peixe do subsolo", "Todos os Amores Universais"],
+            "dislikes": ["Cerveja", "Raiz-forte", "Azevinho"]
+          },
+          {
+            "id": 14,
+            "name": "Leo",
+            "image": "Leo.png",
+            "birthday": "Dia 7 - Verão",
+            "location": "Ilha de Leo",
+            "description": "Leo é um jovem que vive isolado em uma ilha, sendo o único morador. Ele tem um vínculo profundo com a natureza e tem uma personalidade um pouco tímida.",
+            "likes": ["Frutas tropicais", "Peixe grelhado", "Cerveja", "Todos os Amores Universais"],
+            "dislikes": ["Cerveja", "Raiz-forte", "Azevinho"]
+          },
+          {
+            "id": 15,
+            "name": "Penny",
+            "image": "Penny.png",
+            "birthday": "Dia 2 - Outono",
+            "location": "Trailer de Pam",
+            "description": "Penny é uma jovem gentil que vive no trailer com sua mãe, Pam. Ela trabalha como tutora das crianças da vila e é bastante tímida e sonhadora.",
+            "likes": ["Esmeralda", "Poppy", "Melão", "Todos os Amores Universais"],
+            "dislikes": ["Cerveja", "Peixe", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 16,
+            "name": "Anão",
+            "image": "Anão.png",
+            "birthday": "Desconhecido",
+            "location": "Minas",
+            "description": "O Anão é uma criatura misteriosa que vive nas minas. Ele tem sua própria loja e vende itens raros para o jogador.",
+            "likes": ["Ametista", "Esmeralda", "Lágrima de Frozen", "Todos os Amores Universais"],
+            "dislikes": ["Argila", "Chá Verde", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 17,
+            "name": "Caroline",
+            "image": "Caroline.png",
+            "birthday": "Dia 7 - Inverno",
+            "location": "Armazém do Pierre",
+            "description": "Caroline é a esposa de Pierre e mãe de Abigail. Ela gosta de jardinagem e passa muito tempo cuidando de seu jardim pessoal nos fundos da loja.",
+            "likes": ["Chá Verde", "Peixe Leão", "Todos os Amores Universais"],
+            "dislikes": ["Café", "Cerveja", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 18,
+            "name": "Clint",
+            "image": "Clint.png",
+            "birthday": "Dia 26 - Inverno",
+            "location": "Ferraria",
+            "description": "Clint é o ferreiro da cidade e tem uma queda secreta por Emily. Ele é um homem tímido, mas muito dedicado ao seu trabalho.",
+            "likes": ["Ametista", "Esmeralda", "Rubi", "Ouro", "Todos os Amores Universais"],
+            "dislikes": ["Cogumelo", "Amora-silvestre", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 19,
+            "name": "Demetrius",
+            "image": "Demetrius.png",
+            "birthday": "Dia 19 - Verão",
+            "location": "Casa do Carpenter",
+            "description": "Demetrius é o marido de Robin e pai de Maru e Sebastian. Ele é cientista e adora estudar as plantas e animais locais.",
+            "likes": ["Feijão Verde", "Picles", "Fritada de Salmão", "Todos os Amores Universais"],
+            "dislikes": ["Cerveja", "Peixe", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 20,
+            "name": "Evelyn",
+            "image": "Evelyn.png",
+            "birthday": "Dia 20 - Inverno",
+            "location": "Casa de George",
+            "description": "Evelyn é uma idosa gentil e carinhosa, esposa de George e avó de Alex. Ela adora jardinagem e sempre está cuidando de suas flores.",
+            "likes": ["Beterraba", "Pão-de-ló", "Tulipa", "Todos os Amores Universais"],
+            "dislikes": ["Raiz-forte", "Azevinho", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 21,
+            "name": "Feiticeiro",
+            "image": "Feiticeiro.png",
+            "birthday": "Dia 17 - Inverno",
+            "location": "Torre do Feiticeiro, Floresta Cinzaseiva",
+            "description": "O Feiticeiro vive em uma torre na Floresta Cinzaseiva e é um mestre em magia. Pouco se sabe sobre ele, mas ele ajuda o jogador em certas missões e está conectado aos Juminos.",
+            "likes": ["Essência Sombria", "Essência Solar", "Todos os Amores Universais"],
+            "dislikes": ["Argila", "Lágrima de Frozen", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 22,
+            "name": "George",
+            "image": "George.png",
+            "birthday": "Dia 24 - Outono",
+            "location": "Casa de George",
+            "description": "George é um idoso rabugento que vive com sua esposa Evelyn e seu neto Alex. Ele usa cadeira de rodas e pode parecer rude, mas se importa com sua família e a cidade.",
+            "likes": ["Alho", "Alcachofra", "Pimenta quente", "Todos os Amores Universais"],
+            "dislikes": ["Algas", "Picles", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 23,
+            "name": "Gus",
+            "image": "Gus.png",
+            "birthday": "Dia 8 - Verão",
+            "location": "Saloon Fruta Estrelar",
+            "description": "Gus é o dono do Saloon Fruta Estrelar, onde ele serve comidas e bebidas para os moradores. Ele é simpático e acolhedor, sempre disposto a ajudar os outros.",
+            "likes": ["Omelete", "Peixe Tostado", "Todos os Amores Universais"],
+            "dislikes": ["Raiz-forte", "Raiz de Inhame", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 24,
+            "name": "Jas",
+            "image": "Jas.png",
+            "birthday": "Dia 4 - Primavera",
+            "location": "Fazenda da Marnie",
+            "description": "Jas é uma garotinha que mora com sua tia Marnie. Ela é tímida, mas muito curiosa, e frequentemente brinca com Vincent, outro jovem da cidade.",
+            "likes": ["Pudim de Ameixa", "Bolinho de Fada", "Todos os Amores Universais"],
+            "dislikes": ["Cerveja", "Peixe", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 25,
+            "name": "Lewis",
+            "image": "Lewis.png",
+            "birthday": "Dia 7 - Verão",
+            "location": "Prefeitura",
+            "description": "Lewis é o prefeito de Pelican Town. Ele é uma pessoa amigável, mas também pode ser um pouco enigmática, especialmente em relação a alguns dos segredos da cidade.",
+            "likes": ["Salada", "Batata Assada", "Taco de Peixe", "Todos os Amores Universais"],
+            "dislikes": ["Cerveja", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 26,
+            "name": "Linus",
+            "image": "Linus.png",
+            "birthday": "Dia 3 - Inverno",
+            "location": "Floresta de Pelican Town",
+            "description": "Linus é um eremita que vive em uma caverna nas montanhas. Ele é uma pessoa gentil e sábia, mas muitas vezes é marginalizado pelos outros moradores da cidade.",
+            "likes": ["Cogumelo", "Sopa de Algas", "Trufas", "Todos os Amores Universais"],
+            "dislikes": ["Cerveja", "Azevinho", "Raiz-forte", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 27,
+            "name": "Marnie",
+            "image": "Marnie.png",
+            "birthday": "Dia 18 - Primavera",
+            "location": "Fazenda da Marnie",
+            "description": "Marnie é a dona da loja de animais e trabalha muito para cuidar dos animais da fazenda. Ela é uma mulher acolhedora e mãe de Jas.",
+            "likes": ["Feijão Verde", "Bolo de Chocolate", "Ovo", "Todos os Amores Universais"],
+            "dislikes": ["Cerveja", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 28,
+            "name": "Pam",
+            "image": "Pam.png",
+            "birthday": "Dia 18 - Outono",
+            "location": "Saloon Fruta Estrelar",
+            "description": "Pam é a mãe de Penny e trabalha no Saloon Fruta Estrelar. Ela tem uma personalidade descontraída e gosta de beber. Apesar de sua postura, ela se preocupa profundamente com sua filha.",
+            "likes": ["Cerveja", "Milho", "Peixe Tostado", "Todos os Amores Universais"],
+            "dislikes": ["Raiz-forte", "Algas", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 29,
+            "name": "Pierre",
+            "image": "Pierre.png",
+            "birthday": "Dia 26 - Primavera",
+            "location": "Loja de Pierre",
+            "description": "Pierre é o dono da loja em Pelican Town. Ele é um comerciante prático e um tanto ganancioso. Tem um grande orgulho de sua loja e deseja ser o melhor.",
+            "likes": ["Salada", "Batata Assada", "Taco de Peixe", "Todos os Amores Universais"],
+            "dislikes": ["Raiz-forte", "Azevinho", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 30,
+            "name": "Robin",
+            "image": "Robin.png",
+            "birthday": "Dia 21 - Primavera",
+            "location": "Casa de Robin",
+            "description": "Robin é a carpinteira local e esposa de Demetrius. Ela é bastante amigável e é quem ajuda os jogadores a construir novas estruturas para a fazenda.",
+            "likes": ["Madeira", "Paineis de Madeira", "Robô de Ferro", "Todos os Amores Universais"],
+            "dislikes": ["Cogumelo", "Peixe", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 31,
+            "name": "Sandy",
+            "image": "Sandy.png",
+            "birthday": "Dia 15 - Outono",
+            "location": "Deserto",
+            "description": "Sandy é uma moradora do deserto, longe de Pelican Town. Ela é amigável e adora receber cartas. Sua vida no deserto é tranquila e cheia de paz.",
+            "likes": ["Dátilo", "Tâmara", "Todos os Amores Universais"],
+            "dislikes": ["Cogumelo", "Pescado", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 32,
+            "name": "Vincent",
+            "image": "Vincent.png",
+            "birthday": "Dia 10 - Primavera",
+            "location": "Casa de Jodi",
+            "description": "Vincent é uma criança energética e otimista que adora brincar com seus amigos. Ele é uma das crianças mais animadas e bondosas da cidade.",
+            "likes": ["Bolo de Chocolate", "Laranja", "Todos os Amores Universais"],
+            "dislikes": ["Azevinho", "Cogumelo", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 33,
+            "name": "Willy",
+            "image": "Willy.png",
+            "birthday": "Dia 27 - Inverno",
+            "location": "Loja de Willy",
+            "description": "Willy é o pescador da cidade e dono da loja de pesca. Ele é simpático e gosta de pescar no mar. Willy é uma figura bastante amável e está sempre disposto a ajudar os novatos na pesca.",
+            "likes": ["Peixe Tostado", "Bacalhau", "Todos os Amores Universais"],
+            "dislikes": ["Cerveja", "Raiz-forte", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 34,
+            "name": "Ajudante",
+            "image": "Ajudante.png",
+            "birthday": "N/A",
+            "location": "Prefeitura",
+            "description": "O Ajudante trabalha com Lewis na Prefeitura, ajudando a manter a cidade organizada. Sua função é essencialmente administrativa e ele ajuda a comunicar mensagens aos moradores.",
+            "likes": ["Tarefa de Prefeitura", "Todos os Amores Universais"],
+            "dislikes": ["Cerveja", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 35,
+            "name": "Avô",
+            "image": "Avô.png",
+            "birthday": "N/A",
+            "location": "Fazenda (Através de mensagens)",
+            "description": "O Avô de quem o jogador herda a fazenda. Ele aparece ocasionalmente através de mensagens para orientar o jogador nas suas aventuras e faz o papel de mentor na história.",
+            "likes": ["Mensagens de Sabedoria", "Todos os Amores Universais"],
+            "dislikes": ["Cerveja", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 36,
+            "name": "Passarinha",
+            "image": "Passarinha.png",
+            "birthday": "N/A",
+            "location": "Varia",
+            "description": "Passarinha é uma criatura que aparece aleatoriamente em certos eventos e tem um papel simbólico na natureza do jogo.",
+            "likes": ["Sementes", "Frutas"],
+            "dislikes": ["Cerveja", "Comida Enlatada"]
+          },
+          {
+            "id": 37,
+            "name": "Gil",
+            "image": "Gil.png",
+            "birthday": "Dia 8 - Outono",
+            "location": "Adventurer's Guild",
+            "description": "Gil é o membro mais velho da Guilda dos Aventureiros e sempre tem algo a dizer sobre as aventuras dos jogadores. Ele também oferece itens especiais e conselhos sobre o combate.",
+            "likes": ["Bombas", "Poções"],
+            "dislikes": ["Cerveja", "Raiz-forte", "Todos os Ódios Universais"]
+          },
+          {
+            "id": 38,
+            "name": "Governador",
+            "image": "Governador.png",
+            "birthday": "Dia 7 - Verão",
+            "location": "Prefeitura",
+            "description": "O Governador é uma figura importante que supervisiona a cidade e o progresso da mesma. Ele frequentemente aparece em eventos especiais e em algumas interações.",
+            "likes": ["Frutos locais", "Prêmios de Festival"],
+            "dislikes": ["Comida estragada", "Cerveja"]
+          },
+          {
+            "id": 39,
+            "name": "Gunther",
+            "image": "Gunther.png",
+            "birthday": "Dia 8 - Primavera",
+            "location": "Museu",
+            "description": "Gunther é o curador do museu da cidade e é responsável por exibir vários artefatos que o jogador encontra durante o jogo. Ele também troca itens por recompensas.",
+            "likes": ["Esmeralda", "Ametista", "Gemas raras"],
+            "dislikes": ["Cerveja", "Raiz-forte"]
+          },
+          {
+            "id": 40,
+            "name": "Marlon",
+            "image": "Marlon.png",
+            "birthday": "Dia 15 - Outono",
+            "location": "Guilda dos Aventureiros",
+            "description": "Marlon é o líder da Guilda dos Aventureiros e oferece missões para os jogadores, além de fornecer equipamentos e conselhos sobre combate.",
+            "likes": ["Peixe Tostado", "Trufas", "Bacalhau"],
+            "dislikes": ["Cerveja", "Raiz-forte"]
+          },
+          {
+            "id": 41,
+            "name": "Morris",
+            "image": "Morris.png",
+            "birthday": "Dia 1 - Verão",
+            "location": "Loja Joja",
+            "description": "Morris é o gerente da Joja Corp e rivaliza com o negócio local de Pierre. Ele é um homem de negócios motivado por lucros e não hesita em usar a Joja para conseguir o que quer.",
+            "likes": ["Cerveja", "Produtos Joja"],
+            "dislikes": ["Produtos locais", "Pierre", "Raiz-forte"]
+          },
+          {
+            "id": 42,
+            "name": "Professor Caracol",
+            "image": "ProfessorCaracol.png",
+            "birthday": "N/A",
+            "location": "Aldeia",
+            "description": "O Professor Caracol é um personagem misterioso que aparece no jogo com informações esotéricas, oferecendo conselhos e sabedoria sobre o mundo de Stardew Valley.",
+            "likes": ["Poções", "Códigos secretos"],
+            "dislikes": ["Comida simples", "Cerveja"]
+          },
+          {
+            "id": 43,
+            "name": "Segurança",
+            "image": "Seguranca.png",
+            "birthday": "N/A",
+            "location": "Prefeitura",
+            "description": "O Segurança trabalha no prédio da Prefeitura, garantindo que tudo esteja seguro e em ordem. Ele aparece em vários eventos da cidade.",
+            "likes": ["Comida leve", "Trabalho bem feito"],
+            "dislikes": ["Bagunça", "Cerveja"]
+          },
+          {
+            "id": 44,
+            "name": "Sr. Qi",
+            "image": "SrQi.png",
+            "birthday": "Dia 17 - Inverno",
+            "location": "Ilha Qi",
+            "description": "Sr. Qi é um homem misterioso que dirige a Ilha Qi e está envolvido em atividades misteriosas e desafios no jogo. Ele oferece várias missões desafiadoras e recompensas especiais.",
+            "likes": ["Desafios", "Missões", "Frutas raras"],
+            "dislikes": ["Fracasso", "Cerveja"]
+          }
+    ],
+    "items": [
+      {
+        "id": 1,
+        "name": "Parsnip",
+        "type": "Vegetable",
+        "seasons": ["Spring"],
+        "value": 35,
+        "growth_time": 4,
+        "description": "A tasty root vegetable with a hint of sweetness."
+      }
+    ],
+    "tasks": [
+      {
+        "id": 1,
+        "name": "Build a Coop",
+        "description": "Build a coop to raise chickens on your farm.",
+        "requirements": ["300 Wood", "100 Stone"],
+        "reward": "Allows raising chickens"
+      }
+    ],
+    "easter_eggs": [
+      {
+        "id": 1,
+        "name": "Alien Capsule",
+        "trigger": "Randomly spawns on farm after Year 2",
+        "description": "An alien capsule may randomly appear on your farm..."
+      }
+    ]
+  }
+  

@@ -456,12 +456,3243 @@
     "items": [
       {
         "id": 1,
-        "name": "Parsnip",
-        "type": "Vegetable",
-        "seasons": ["Spring"],
-        "value": 35,
-        "growth_time": 4,
-        "description": "A tasty root vegetable with a hint of sweetness."
+        "name": "Pedra",
+        "seasons": "Todas",
+        "original_name": "Stone",
+        "images": "Stone.png",
+        "price": 2,
+        "description": "Pedra básica coletada de pedregulho",
+        "type": "Recurso"
+      },
+      {
+        "id": 2,
+        "name": "Raiz-forte",
+        "seasons": "Primavera",
+        "original_name": "Wild Horseradish",
+        "images": "Wild_Horseradish.png",
+        "price": 50,
+        "description": "Uma raiz forte e picante encontrada na natureza",
+        "type": "Forragem"
+      },
+      {
+        "id": 3,
+        "name": "Narciso",
+        "seasons": "Primavera",
+        "original_name": "Daffodil",
+        "images": "Daffodil.png",
+        "price": 30,
+        "description": "Uma bela flor amarela",
+        "type": "Forragem"
+      },
+      {
+        "id": 4,
+        "name": "Alho-poró",
+        "seasons": "Primavera",
+        "original_name": "Leek",
+        "images": "Leek.png",
+        "price": 60,
+        "description": "Uma verdura com sabor delicado",
+        "type": "Forragem"
+      },
+      {
+        "id": 5,
+        "name": "Dente-de-leão",
+        "seasons": "Primavera",
+        "original_name": "Dandelion",
+        "images": "Dandelion.png",
+        "price": 40,
+        "description": "Uma flor que floresce na primavera",
+        "type": "Forragem"
+      },
+      {
+        "id": 6,
+        "name": "Chirívia",
+        "seasons": "Primavera",
+        "original_name": "Parsnip",
+        "images": "Parsnip.png",
+        "price": 35,
+        "description": "Um vegetal doce com gosto de terra",
+        "type": "Cultivo"
+      },
+      {
+        "id": 7,
+        "name": "Esmeralda",
+        "seasons": "Todas",
+        "original_name": "Emerald",
+        "images": "Emerald.png",
+        "price": 250,
+        "description": "Uma gema verde vibrante",
+        "type": "Mineral"
+      },
+      {
+        "id": 8,
+        "name": "Água-marinha",
+        "seasons": "Todas",
+        "original_name": "Aquamarine",
+        "images": "Aquamarine.png",
+        "price": 180,
+        "description": "Uma gema azul brilhante",
+        "type": "Mineral"
+      },
+      {
+        "id": 9,
+        "name": "Rubi",
+        "seasons": "Todas",
+        "original_name": "Ruby",
+        "images": "Ruby.png",
+        "price": 250,
+        "description": "Uma gema vermelha valiosa",
+        "type": "Mineral"
+      },
+      {
+        "id": 10,
+        "name": "Ametista",
+        "seasons": "Todas",
+        "original_name": "Amethyst",
+        "images": "Amethyst.png",
+        "price": 100,
+        "description": "Uma gema roxa bonita",
+        "type": "Mineral"
+      },
+      {
+        "id": 11,
+        "name": "Topázio",
+        "seasons": "Todas",
+        "original_name": "Topaz",
+        "images": "Topaz.png",
+        "price": 80,
+        "description": "Uma gema dourada amarelada",
+        "type": "Mineral"
+      },
+      {
+        "id": 12,
+        "name": "Muda de Bananeira",
+        "seasons": "Todas",
+        "original_name": "Banana Sapling",
+        "images": "Banana_Sapling.png",
+        "price": 1000,
+        "description": "Uma muda que cresce em uma bananeira produtiva.",
+        "type": "Cultivo"
+      },
+      {
+        "id": 13,
+        "name": "Jade",
+        "seasons": "Todas",
+        "original_name": "Jade",
+        "images": "Jade.png",
+        "price": 200,
+        "description": "Uma pedra verde comum.",
+        "type": "Mineral"
+      },
+      {
+        "id": 14,
+        "name": "Diamante",
+        "seasons": "Todas",
+        "original_name": "Diamond",
+        "images": "Diamond.png",
+        "price": 750,
+        "description": "Um cristal raro e valioso.",
+        "type": "Mineral"
+      },
+      {
+        "id": 15,
+        "name": "Fragmento Prismático",
+        "seasons": "Todas",
+        "original_name": "Prismatic Shard",
+        "images": "Prismatic_Shard.png",
+        "price": 2000,
+        "description": "Um fragmento raro com cores prismáticas.",
+        "type": "Mineral"
+      },
+      {
+        "id": 16,
+        "name": "Cenoura Subterrânea",
+        "seasons": "Todas",
+        "original_name": "Cave Carrot",
+        "images": "Cave_Carrot.png",
+        "price": 25,
+        "description": "Um vegetal encontrado em cavernas.",
+        "type": "Forragem"
+      },
+      {
+        "id": 17,
+        "name": "Quartzo",
+        "seasons": "Todas",
+        "original_name": "Quartz",
+        "images": "Quartz.png",
+        "price": 25,
+        "description": "Um cristal encontrado nas minas.",
+        "type": "Mineral"
+      },
+      {
+        "id": 18,
+        "name": "Banana",
+        "seasons": "Todas",
+        "original_name": "Banana",
+        "images": "Banana.png",
+        "price": 150,
+        "description": "Uma fruta tropical doce.",
+        "type": "Fruta"
+      },
+      {
+        "id": 19,
+        "name": "Quartzo de Fogo",
+        "seasons": "Todas",
+        "original_name": "Fire Quartz",
+        "images": "Fire_Quartz.png",
+        "price": 100,
+        "description": "Um quartzo que irradia calor.",
+        "type": "Mineral"
+      },
+      {
+        "id": 20,
+        "name": "Lágrima Congelada",
+        "seasons": "Todas",
+        "original_name": "Frozen Tear",
+        "images": "Frozen_Tear.png",
+        "price": 75,
+        "description": "Uma lágrima congelada.",
+        "type": "Mineral"
+      },
+      {
+        "id": 21,
+        "name": "Cristal de Terra",
+        "seasons": "Todas",
+        "original_name": "Earth Crystal",
+        "images": "Earth_Crystal.png",
+        "price": 50,
+        "description": "Um cristal encontrado no solo.",
+        "type": "Mineral"
+      },
+      {
+        "id": 22,
+        "name": "Coco",
+        "seasons": "Verão",
+        "original_name": "Coconut",
+        "images": "Coconut.png",
+        "price": 100,
+        "description": "Uma fruta tropical.",
+        "type": "Fruta"
+      },
+      {
+        "id": 23,
+        "name": "Fruto do Cacto",
+        "seasons": "Verão",
+        "original_name": "Cactus Fruit",
+        "images": "Cactus_Fruit.png",
+        "price": 75,
+        "description": "Um fruto suculento do deserto.",
+        "type": "Fruta"
+      },
+      {
+        "id": 24,
+        "name": "Seiva",
+        "seasons": "Todas",
+        "original_name": "Sap",
+        "images": "Sap.png",
+        "price": 2,
+        "description": "Seiva retirada de árvores.",
+        "type": "Recurso"
+      },
+      {
+        "id": 25,
+        "name": "Tocha",
+        "seasons": "Todas",
+        "original_name": "Torch",
+        "images": "Torch.png",
+        "price": 5,
+        "description": "Ilumina o ambiente ao seu redor.",
+        "type": "Item"
+      },
+      {
+        "id": 26,
+        "name": "Pergaminho dos Anões I",
+        "seasons": "Todas",
+        "original_name": "Dwarf Scroll I",
+        "images": "Dwarf_Scroll_I.png",
+        "price": 1,
+        "description": "Um antigo pergaminho anão.",
+        "type": "Artefato"
+      },
+      {
+        "id": 27,
+        "name": "Pergaminho dos Anões II",
+        "seasons": "Todas",
+        "original_name": "Dwarf Scroll II",
+        "images": "Dwarf_Scroll_II.png",
+        "price": 1,
+        "description": "Um antigo pergaminho anão.",
+        "type": "Artefato"
+      },
+      {
+        "id": 28,
+        "name": "Pergaminho dos Anões III",
+        "seasons": "Todas",
+        "original_name": "Dwarf Scroll III",
+        "images": "Dwarf_Scroll_III.png",
+        "price": 1,
+        "description": "Um antigo pergaminho anão.",
+        "type": "Artefato"
+      },
+      {
+        "id": 29,
+        "name": "Pergaminho dos Anões IV",
+        "seasons": "Todas",
+        "original_name": "Dwarf Scroll IV",
+        "images": "Dwarf_Scroll_IV.png",
+        "price": 1,
+        "description": "Um antigo pergaminho anão.",
+        "type": "Artefato"
+      },
+      {
+        "id": 30,
+        "name": "Ânfora Quebrada",
+        "seasons": "Todas",
+        "original_name": "Broken Glasses",
+        "images": "Broken_Glasses.png",
+        "price": 0,
+        "description": "Óculos quebrados, encontrados no lixo.",
+        "type": "Lixo"
+      },
+      {
+        "id": 31,
+        "name": "Ponta de Flecha",
+        "seasons": "Todas",
+        "original_name": "Arrowhead",
+        "images": "Arrowhead.png",
+        "price": 40,
+        "description": "Uma ponta de flecha antiga.",
+        "type": "Artefato"
+      },
+      {
+        "id": 32,
+        "name": "Boneco Antigo",
+        "seasons": "Todas",
+        "original_name": "Ancient Doll",
+        "images": "Ancient_Doll.png",
+        "price": 100,
+        "description": "Um estranho boneco antigo.",
+        "type": "Artefato"
+      },
+      {
+        "id": 33,
+        "name": "Joias Élficas",
+        "seasons": "Todas",
+        "original_name": "Elvish Jewelry",
+        "images": "Elvish_Jewelry.png",
+        "price": 200,
+        "description": "Joias usadas pelos elfos.",
+        "type": "Artefato"
+      },
+      {
+        "id": 34,
+        "name": "Palha para Mastigar",
+        "seasons": "Todas",
+        "original_name": "Chewing Stick",
+        "images": "Chewing_Stick.png",
+        "price": 50,
+        "description": "Um graveto usado para mastigar.",
+        "type": "Artefato"
+      },
+      {
+        "id": 35,
+        "name": "Leque Ornamental",
+        "seasons": "Todas",
+        "original_name": "Ornamental Fan",
+        "images": "Ornamental_Fan.png",
+        "price": 300,
+        "description": "Um leque antigo e ornamental.",
+        "type": "Artefato"
+      },
+      {
+        "id": 36,
+        "name": "Ovo de Dinossauro",
+        "seasons": "Todas",
+        "original_name": "Dinosaur Egg",
+        "images": "Dinosaur_Egg.png",
+        "price": 350,
+        "description": "Um ovo fossilizado de dinossauro.",
+        "type": "Artefato"
+      },
+      {
+        "id": 37,
+        "name": "Disco Raro",
+        "seasons": "Todas",
+        "original_name": "Rare Disc",
+        "images": "Rare_Disc.png",
+        "price": 300,
+        "description": "Um disco misterioso.",
+        "type": "Artefato"
+      },
+      {
+        "id": 38,
+        "name": "Espada Antiga",
+        "seasons": "Todas",
+        "original_name": "Ancient Sword",
+        "images": "Ancient_Sword.png",
+        "price": 100,
+        "description": "Uma espada antiga e enferrujada.",
+        "type": "Artefato"
+      },
+      {
+        "id": 39,
+        "name": "Colher Enferrujada",
+        "seasons": "Todas",
+        "original_name": "Rusty Spoon",
+        "images": "Rusty_Spoon.png",
+        "price": 25,
+        "description": "Uma colher velha e enferrujada.",
+        "type": "Artefato"
+      },
+      {
+        "id": 40,
+        "name": "Esporão Enferrujado",
+        "seasons": "Todas",
+        "original_name": "Rusty Spur",
+        "images": "Rusty_Spur.png",
+        "price": 25,
+        "description": "Um esporão antigo e enferrujado.",
+        "type": "Artefato"
+      },
+      {
+        "id": 41,
+        "name": "Engrenagem Velha",
+        "seasons": "Todas",
+        "original_name": "Rusty Cog",
+        "images": "Rusty_Cog.png",
+        "price": 30,
+        "description": "Uma engrenagem enferrujada.",
+        "type": "Artefato"
+      },
+      {
+        "id": 42,
+        "name": "Estátua de Galinha",
+        "seasons": "Todas",
+        "original_name": "Chicken Statue",
+        "images": "Chicken_Statue.png",
+        "price": 50,
+        "description": "Uma estátua em forma de galinha.",
+        "type": "Artefato"
+      },
+      {
+        "id": 43,
+        "name": "Semente Antiga",
+        "seasons": "Todas",
+        "original_name": "Ancient Seed",
+        "images": "Ancient_Seed.png",
+        "price": 5,
+        "description": "Uma semente de planta antiga.",
+        "type": "Artefato"
+      },
+      {
+        "id": 44,
+        "name": "Ferramenta Pré-histórica",
+        "seasons": "Todas",
+        "original_name": "Prehistoric Tool",
+        "images": "Prehistoric_Tool.png",
+        "price": 50,
+        "description": "Uma ferramenta da era pré-histórica.",
+        "type": "Artefato"
+      },
+      {
+        "id": 45,
+        "name": "Estrela-do-mar Ressecada",
+        "seasons": "Todas",
+        "original_name": "Dried Starfish",
+        "images": "Dried_Starfish.png",
+        "price": 40,
+        "description": "Uma estrela-do-mar ressecada.",
+        "type": "Artefato"
+      },
+      {
+        "id": 46,
+        "name": "Âncora",
+        "seasons": "Todas",
+        "original_name": "Anchor",
+        "images": "Anchor.png",
+        "price": 100,
+        "description": "Uma âncora antiga e enferrujada.",
+        "type": "Artefato"
+      },
+      {
+        "id": 47,
+        "name": "Cacos de Vidro",
+        "seasons": "Todas",
+        "original_name": "Glass Shards",
+        "images": "Glass_Shards.png",
+        "price": 20,
+        "description": "Fragmentos afiados de vidro antigo.",
+        "type": "Artefato"
+      },
+      {
+        "id": 48,
+        "name": "Flauta de Ossos",
+        "seasons": "Todas",
+        "original_name": "Bone Flute",
+        "images": "Bone_Flute.png",
+        "price": 100,
+        "description": "Uma flauta feita de ossos antigos.",
+        "type": "Artefato"
+      },
+      {
+        "id": 49,
+        "name": "Biface Pré-histórico",
+        "seasons": "Todas",
+        "original_name": "Prehistoric Handaxe",
+        "images": "Prehistoric_Handaxe.png",
+        "price": 50,
+        "description": "Uma ferramenta pré-histórica.",
+        "type": "Artefato"
+      },
+      {
+        "id": 50,
+        "name": "Elmo Anão",
+        "seasons": "Todas",
+        "original_name": "Dwarf Helm",
+        "images": "Dwarf_Helm.png",
+        "price": 100,
+        "description": "Um elmo antigo usado pelos anões.",
+        "type": "Artefato"
+      },
+      {
+        "id": 51,
+        "name": "Dispositivo de Anão",
+        "seasons": "Todas",
+        "original_name": "Dwarvish Gadget",
+        "images": "Dwarvish_Gadget.png",
+        "price": 200,
+        "description": "Uma ferramenta misteriosa feita por anões.",
+        "type": "Artefato"
+      },
+      {
+        "id": 52,
+        "name": "Tambor Antigo",
+        "seasons": "Todas",
+        "original_name": "Ancient Drum",
+        "images": "Ancient_Drum.png",
+        "price": 100,
+        "description": "Um tambor usado em rituais antigos.",
+        "type": "Artefato"
+      },
+      {
+        "id": 53,
+        "name": "Máscara Dourada",
+        "seasons": "Todas",
+        "original_name": "Golden Mask",
+        "images": "Golden_Mask.png",
+        "price": 500,
+        "description": "Uma máscara dourada de uma civilização antiga.",
+        "type": "Artefato"
+      },
+      {
+        "id": 54,
+        "name": "Relíquia Dourada",
+        "seasons": "Todas",
+        "original_name": "Golden Relic",
+        "images": "Golden_Relic.png",
+        "price": 250,
+        "description": "Uma relíquia valiosa de ouro.",
+        "type": "Artefato"
+      },
+      {
+        "id": 55,
+        "name": "Baiacu",
+        "seasons": "Verão",
+        "original_name": "Pufferfish",
+        "images": "Pufferfish.png",
+        "price": 200,
+        "description": "Um peixe tóxico encontrado no verão.",
+        "type": "Peixe"
+      },
+      {
+        "id": 56,
+        "name": "Anchova",
+        "seasons": "Todas",
+        "original_name": "Anchovy",
+        "images": "Anchovy.png",
+        "price": 30,
+        "description": "Um peixe pequeno encontrado no oceano.",
+        "type": "Peixe"
+      },
+      {
+        "id": 57,
+        "name": "Atum",
+        "seasons": "Verão, Inverno",
+        "original_name": "Tuna",
+        "images": "Tuna.png",
+        "price": 100,
+        "description": "Um peixe grande e popular para pratos de sushi.",
+        "type": "Peixe"
+      },
+      {
+        "id": 58,
+        "name": "Sardinha",
+        "seasons": "Todas",
+        "original_name": "Sardine",
+        "images": "Sardine.png",
+        "price": 40,
+        "description": "Um peixe pequeno e oleoso.",
+        "type": "Peixe"
+      },
+      {
+        "id": 59,
+        "name": "Brema",
+        "seasons": "Todas",
+        "original_name": "Bream",
+        "images": "Bream.png",
+        "price": 45,
+        "description": "Um peixe noturno.",
+        "type": "Peixe"
+      },
+      {
+        "id": 60,
+        "name": "Achigã",
+        "seasons": "Todas",
+        "original_name": "Largemouth Bass",
+        "images": "Largemouth_Bass.png",
+        "price": 100,
+        "description": "Um peixe popular em lagos.",
+        "type": "Peixe"
+      },
+      {
+        "id": 61,
+        "name": "Achigã-pequeno",
+        "seasons": "Todas",
+        "original_name": "Smallmouth Bass",
+        "images": "Smallmouth_Bass.png",
+        "price": 50,
+        "description": "Encontrado em rios.",
+        "type": "Peixe"
+      },
+      {
+        "id": 62,
+        "name": "Truta Arco-Íris",
+        "seasons": "Verão",
+        "original_name": "Rainbow Trout",
+        "images": "Rainbow_Trout.png",
+        "price": 65,
+        "description": "Um peixe colorido.",
+        "type": "Peixe"
+      },
+      {
+        "id": 63,
+        "name": "Salmão",
+        "seasons": "Outono",
+        "original_name": "Salmon",
+        "images": "Salmon.png",
+        "price": 75,
+        "description": "Popular para pratos de culinária.",
+        "type": "Peixe"
+      },
+      {
+        "id": 64,
+        "name": "Picão-verde",
+        "seasons": "Todas",
+        "original_name": "Green Algae",
+        "images": "Green_Algae.png",
+        "price": 15,
+        "description": "Alga encontrada em rios e lagos.",
+        "type": "Item"
+      },
+      {
+        "id": 65,
+        "name": "Perca",
+        "seasons": "Todas",
+        "original_name": "Perch",
+        "images": "Perch.png",
+        "price": 55,
+        "description": "Um peixe encontrado no inverno.",
+        "type": "Peixe"
+      },
+      {
+        "id": 66,
+        "name": "Carpa",
+        "seasons": "Todas",
+        "original_name": "Carp",
+        "images": "Carp.png",
+        "price": 30,
+        "description": "Um peixe abundante em lagos.",
+        "type": "Peixe"
+      },
+      {
+        "id": 67,
+        "name": "Bagre",
+        "seasons": "Primavera, Outono",
+        "original_name": "Catfish",
+        "images": "Catfish.png",
+        "price": 200,
+        "description": "Um peixe raro de rio.",
+        "type": "Peixe"
+      },
+      {
+        "id": 68,
+        "name": "Lúcio",
+        "seasons": "Inverno",
+        "original_name": "Pike",
+        "images": "Pike.png",
+        "price": 100,
+        "description": "Um peixe agressivo.",
+        "type": "Peixe"
+      },
+      {
+        "id": 69,
+        "name": "Peixe-sol",
+        "seasons": "Verão",
+        "original_name": "Sunfish",
+        "images": "Sunfish.png",
+        "price": 30,
+        "description": "Peixe colorido de verão.",
+        "type": "Peixe"
+      },
+      {
+        "id": 70,
+        "name": "Salmonete",
+        "seasons": "Verão, Outono",
+        "original_name": "Red Mullet",
+        "images": "Red_Mullet.png",
+        "price": 75,
+        "description": "Peixe popular no oceano.",
+        "type": "Peixe"
+      },
+      {
+        "id": 71,
+        "name": "Arenque",
+        "seasons": "Primavera, Inverno",
+        "original_name": "Herring",
+        "images": "Herring.png",
+        "price": 30,
+        "description": "Encontrado no oceano.",
+        "type": "Peixe"
+      },
+      {
+        "id": 72,
+        "name": "Enguia",
+        "seasons": "Primavera, Outono",
+        "original_name": "Eel",
+        "images": "Eel.png",
+        "price": 85,
+        "description": "Um peixe noturno do oceano.",
+        "type": "Peixe"
+      },
+      {
+        "id": 73,
+        "name": "Polvo",
+        "seasons": "Verão",
+        "original_name": "Octopus",
+        "images": "Octopus.png",
+        "price": 150,
+        "description": "Difícil de pegar.",
+        "type": "Peixe"
+      },
+      {
+        "id": 74,
+        "name": "Cioba",
+        "seasons": "Verão, Outono",
+        "original_name": "Sea Cucumber",
+        "images": "Sea_Cucumber.png",
+        "price": 50,
+        "description": "Um peixe marinho encontrado no fundo do oceano.",
+        "type": "Peixe"
+      },
+      {
+        "id": 75,
+        "name": "Lula",
+        "seasons": "Verão",
+        "original_name": "Squid",
+        "images": "Squid.png",
+        "price": 150,
+        "description": "Uma criatura marinha difícil de pegar.",
+        "type": "Peixe"
+      },
+      {
+        "id": 76,
+        "name": "Algas Marinhas",
+        "seasons": "Todas",
+        "original_name": "Seaweed",
+        "images": "Seaweed.png",
+        "price": 20,
+        "description": "Alga comestível encontrada no oceano.",
+        "type": "Item"
+      },
+      {
+        "id": 77,
+        "name": "Algas Verdes",
+        "seasons": "Todas",
+        "original_name": "Green Algae",
+        "images": "Green_Algae.png",
+        "price": 15,
+        "description": "Alga encontrada em rios e lagos.",
+        "type": "Item"
+      },
+      {
+        "id": 78,
+        "name": "Pepino-do-mar",
+        "seasons": "Todas",
+        "original_name": "Sea Cucumber",
+        "images": "Sea_Cucumber.png",
+        "price": 75,
+        "description": "Criatura marinha encontrada no oceano.",
+        "type": "Peixe"
+      },
+      {
+        "id": 79,
+        "name": "Superpepino",
+        "seasons": "Verão",
+        "original_name": "Super Cucumber",
+        "images": "Super_Cucumber.png",
+        "price": 125,
+        "description": "Um pepino-do-mar raro.",
+        "type": "Peixe"
+      },
+      {
+        "id": 80,
+        "name": "Peixe-fantasma",
+        "seasons": "Todas",
+        "original_name": "Ghostfish",
+        "images": "Ghostfish.png",
+        "price": 100,
+        "description": "Um peixe misterioso encontrado nas minas.",
+        "type": "Peixe"
+      },
+      {
+        "id": 81,
+        "name": "Algas Brancas",
+        "seasons": "Todas",
+        "original_name": "White Algae",
+        "images": "White_Algae.png",
+        "price": 25,
+        "description": "Alga encontrada em águas geladas.",
+        "type": "Item"
+      },
+      {
+        "id": 82,
+        "name": "Peixe-pedra",
+        "seasons": "Todas",
+        "original_name": "Stonefish",
+        "images": "Stonefish.png",
+        "price": 100,
+        "description": "Um peixe encontrado nas minas.",
+        "type": "Peixe"
+      },
+      {
+        "id": 83,
+        "name": "Peixe-carmim",
+        "seasons": "Outono, Inverno",
+        "original_name": "Crimsonfish",
+        "images": "Crimsonfish.png",
+        "price": 200,
+        "description": "Um peixe raro encontrado perto de um cais especial.",
+        "type": "Peixe"
+      },
+      {
+        "id": 84,
+        "name": "Tamboril",
+        "seasons": "Outono",
+        "original_name": "Anglerfish",
+        "images": "Anglerfish.png",
+        "price": 100,
+        "description": "Um peixe encontrado no fundo das águas profundas.",
+        "type": "Peixe"
+      },
+      {
+        "id": 85,
+        "name": "Chione",
+        "seasons": "Inverno",
+        "original_name": "Chub",
+        "images": "Chub.png",
+        "price": 25,
+        "description": "Peixe encontrado em rios durante o inverno.",
+        "type": "Peixe"
+      },
+      {
+        "id": 86,
+        "name": "Enguia de Lava",
+        "seasons": "Inverno",
+        "original_name": "Lava Eel",
+        "images": "Lava_Eel.png",
+        "price": 1000,
+        "description": "Peixe raro encontrado nas minas de lava.",
+        "type": "Peixe"
+      },
+      {
+        "id": 87,
+        "name": "Lenda",
+        "seasons": "Todas",
+        "original_name": "Legend",
+        "images": "Legend.png",
+        "price": 5000,
+        "description": "Um peixe lendário, difícil de encontrar.",
+        "type": "Peixe"
+      },
+      {
+        "id": 88,
+        "name": "Areinha",
+        "seasons": "Todas",
+        "original_name": "Sandfish",
+        "images": "Sandfish.png",
+        "price": 150,
+        "description": "Um peixe encontrado em áreas arenosas.",
+        "type": "Peixe"
+      },
+      {
+        "id": 89,
+        "name": "Carpa Escorpiônica",
+        "seasons": "Verão",
+        "original_name": "Scorpion Carp",
+        "images": "Scorpion_Carp.png",
+        "price": 100,
+        "description": "Peixe raro encontrado em um local específico.",
+        "type": "Peixe"
+      },
+      {
+        "id": 90,
+        "name": "Baú do Tesouro",
+        "seasons": "Todas",
+        "original_name": "Treasure Chest",
+        "images": "Treasure_Chest.png",
+        "price": 500,
+        "description": "Um baú contendo vários itens.",
+        "type": "Item"
+      },
+      {
+        "id": 91,
+        "name": "Joja-Cola",
+        "seasons": "Todas",
+        "original_name": "Joja-Cola",
+        "images": "Joja-Cola.png",
+        "price": 100,
+        "description": "A bebida famosa da Joja Corp.",
+        "type": "Bebida"
+      },
+      {
+        "id": 92,
+        "name": "Madeira do Mar",
+        "seasons": "Todas",
+        "original_name": "Driftwood",
+        "images": "Driftwood.png",
+        "price": 10,
+        "description": "Madeira flutuante encontrada nas praias.",
+        "type": "Item"
+      },
+      {
+        "id": 93,
+        "name": "Óculos Quebrados",
+        "seasons": "Todas",
+        "original_name": "Broken Glasses",
+        "images": "Broken_Glasses.png",
+        "price": 10,
+        "description": "Óculos quebrados encontrados em várias partes.",
+        "type": "Item"
+      },
+      {
+        "id": 94,
+        "name": "CD Quebrado",
+        "seasons": "Todas",
+        "original_name": "Broken CD",
+        "images": "Broken_CD.png",
+        "price": 5,
+        "description": "Um CD quebrado encontrado em várias partes.",
+        "type": "Item"
+      },
+      {
+        "id": 95,
+        "name": "Jornal Ensopado",
+        "seasons": "Todas",
+        "original_name": "Torn Journal",
+        "images": "Torn_Journal.png",
+        "price": 0,
+        "description": "Jornal molhado encontrado na terra.",
+        "type": "Item"
+      },
+      {
+        "id": 96,
+        "name": "Ovo",
+        "seasons": "Todas",
+        "original_name": "Egg",
+        "images": "Egg.png",
+        "price": 50,
+        "description": "Ovo de galinha comum.",
+        "type": "Item"
+      },
+      {
+        "id": 97,
+        "name": "Ovo Grande",
+        "seasons": "Todas",
+        "original_name": "Large Egg",
+        "images": "Large_Egg.png",
+        "price": 95,
+        "description": "Um ovo maior do que o normal.",
+        "type": "Item"
+      },
+      {
+        "id": 98,
+        "name": "Leite",
+        "seasons": "Todas",
+        "original_name": "Milk",
+        "images": "Milk.png",
+        "price": 150,
+        "description": "Leite fresco de vaca.",
+        "type": "Item"
+      },
+      {
+        "id": 99,
+        "name": "Leite Grande",
+        "seasons": "Todas",
+        "original_name": "Large Milk",
+        "images": "Large_Milk.png",
+        "price": 200,
+        "description": "Leite grande extraído de uma vaca.",
+        "type": "Item"
+      },
+      {
+        "id": 100,
+        "name": "Vagem",
+        "seasons": "Primavera",
+        "original_name": "Green Bean",
+        "images": "Green_Bean.png",
+        "price": 40,
+        "description": "Um legume comum cultivado na primavera.",
+        "type": "Item"
+      },
+      {
+        "id": 101,
+        "name": "Risoto de Samambaia",
+        "seasons": "Todas",
+        "original_name": "Fern Risotto",
+        "images": "Fern_Risotto.png",
+        "price": 200,
+        "description": "Risoto feito com samambaias.",
+        "type": "Comida"
+      },
+      {
+        "id": 102,
+        "name": "Couve-flor",
+        "seasons": "Primavera",
+        "original_name": "Cauliflower",
+        "images": "Cauliflower.png",
+        "price": 175,
+        "description": "Uma couve-flor fresca, pode ser cultivada na primavera.",
+        "type": "Item"
+      },
+      {
+        "id": 103,
+        "name": "Batata",
+        "seasons": "Primavera",
+        "original_name": "Potato",
+        "images": "Potato.png",
+        "price": 50,
+        "description": "Batata cultivada durante a primavera.",
+        "type": "Item"
+      },
+      {
+        "id": 104,
+        "name": "Ovo Frito",
+        "seasons": "Todas",
+        "original_name": "Fried Egg",
+        "images": "Fried_Egg.png",
+        "price": 100,
+        "description": "Ovo frito simples, um lanche rápido.",
+        "type": "Comida"
+      },
+      {
+        "id": 105,
+        "name": "Omelete",
+        "seasons": "Todas",
+        "original_name": "Omelet",
+        "images": "Omelet.png",
+        "price": 150,
+        "description": "Omelete feita com ovos e outros ingredientes.",
+        "type": "Comida"
+      },
+      {
+        "id": 106,
+        "name": "Salada",
+        "seasons": "Todas",
+        "original_name": "Salad",
+        "images": "Salad.png",
+        "price": 200,
+        "description": "Uma salada fresca de folhas verdes.",
+        "type": "Comida"
+      },
+      {
+        "id": 107,
+        "name": "Couve-flor com Queijo",
+        "seasons": "Primavera",
+        "original_name": "Cauliflower with Cheese",
+        "images": "Cauliflower_with_Cheese.png",
+        "price": 250,
+        "description": "Couve-flor fresca coberta com queijo derretido.",
+        "type": "Comida"
+      },
+      {
+        "id": 108,
+        "name": "Peixe Cozido",
+        "seasons": "Todas",
+        "original_name": "Dish o' the Sea",
+        "images": "Dish_o_the_Sea.png",
+        "price": 200,
+        "description": "Um prato delicioso com peixe cozido.",
+        "type": "Comida"
+      },
+      {
+        "id": 109,
+        "name": "Sopa de Chirívia",
+        "seasons": "Outono",
+        "original_name": "Parsnip Soup",
+        "images": "Parsnip_Soup.png",
+        "price": 150,
+        "description": "Sopa feita com chirívia, um prato simples.",
+        "type": "Comida"
+      },
+      {
+        "id": 110,
+        "name": "Mexido de Legumes",
+        "seasons": "Todas",
+        "original_name": "Stir Fry",
+        "images": "Stir_Fry.png",
+        "price": 200,
+        "description": "Mexido de legumes frescos.",
+        "type": "Comida"
+      },
+      {
+        "id": 111,
+        "name": "Café da Manhã Completo",
+        "seasons": "Todas",
+        "original_name": "Complete Breakfast",
+        "images": "Complete_Breakfast.png",
+        "price": 350,
+        "description": "Café da manhã completo com ovos, batata e bacon.",
+        "type": "Comida"
+      },
+      {
+        "id": 112,
+        "name": "Lula Frita",
+        "seasons": "Verão",
+        "original_name": "Fried Eel",
+        "images": "Fried_Eel.png",
+        "price": 200,
+        "description": "Lula frita, uma deliciosa refeição.",
+        "type": "Comida"
+      },
+      {
+        "id": 113,
+        "name": "Pão Estranho",
+        "seasons": "Todas",
+        "original_name": "Strange Bun",
+        "images": "Strange_Bun.png",
+        "price": 250,
+        "description": "Pão estranho que parece ter sido feito de forma improvisada.",
+        "type": "Comida"
+      },
+      {
+        "id": 114,
+        "name": "Almoço da Sorte",
+        "seasons": "Todas",
+        "original_name": "Lucky Lunch",
+        "images": "Lucky_Lunch.png",
+        "price": 400,
+        "description": "Almoço que traz sorte, com arroz e vários ingredientes.",
+        "type": "Comida"
+      },
+      {
+        "id": 115,
+        "name": "Cogumelo Frito",
+        "seasons": "Outono",
+        "original_name": "Fried Mushroom",
+        "images": "Fried_Mushroom.png",
+        "price": 200,
+        "description": "Cogumelos fritos, uma delícia simples.",
+        "type": "Comida"
+      },
+      {
+        "id": 116,
+        "name": "Pizza",
+        "seasons": "Todas",
+        "original_name": "Pizza",
+        "images": "Pizza.png",
+        "price": 400,
+        "description": "Pizza feita com molho de tomate e queijo.",
+        "type": "Comida"
+      },
+      {
+        "id": 117,
+        "name": "Pote de Feijão",
+        "seasons": "Todas",
+        "original_name": "Bean Hotpot",
+        "images": "Bean_Hotpot.png",
+        "price": 250,
+        "description": "Pote cheio de feijão cozido com temperos.",
+        "type": "Comida"
+      },
+      {
+        "id": 118,
+        "name": "Inhames com Cobertura",
+        "seasons": "Todas",
+        "original_name": "Yam",
+        "images": "Yam.png",
+        "price": 160,
+        "description": "Inhame cozido com uma cobertura deliciosa.",
+        "type": "Comida"
+      },
+      {
+        "id": 119,
+        "name": "Carpa-surpresa",
+        "seasons": "Outono",
+        "original_name": "Surprise Carp",
+        "images": "Surprise_Carp.png",
+        "price": 300,
+        "description": "Carpa encontrada em algumas partes da fazenda.",
+        "type": "Comida"
+      },
+      {
+        "id": 120,
+        "name": "Batata-palha",
+        "seasons": "Todas",
+        "original_name": "Hashbrowns",
+        "images": "Hashbrowns.png",
+        "price": 120,
+        "description": "Batata ralada e frita, um lanche delicioso.",
+        "type": "Comida"
+      },
+      {
+        "id": 121,
+        "name": "Panquecas",
+        "seasons": "Todas",
+        "original_name": "Pancakes",
+        "images": "Pancakes.png",
+        "price": 150,
+        "description": "Panquecas macias e fofas.",
+        "type": "Comida"
+      },
+      {
+        "id": 122,
+        "name": "Jantar de Salmão",
+        "seasons": "Todas",
+        "original_name": "Salmon Dinner",
+        "images": "Salmon_Dinner.png",
+        "price": 300,
+        "description": "Jantar delicioso de salmão grelhado.",
+        "type": "Comida"
+      },
+      {
+        "id": 123,
+        "name": "Taco de Peixe",
+        "seasons": "Todas",
+        "original_name": "Fish Taco",
+        "images": "Fish_Taco.png",
+        "price": 200,
+        "description": "Taco recheado com peixe fresco.",
+        "type": "Comida"
+      },
+      {
+        "id": 124,
+        "name": "Achigã Crocante",
+        "seasons": "Verão",
+        "original_name": "Crispy Bass",
+        "images": "Crispy_Bass.png",
+        "price": 250,
+        "description": "Achigã frito crocante, perfeito para o verão.",
+        "type": "Comida"
+      },
+      {
+        "id": 125,
+        "name": "Enroladinhos de Pimenta",
+        "seasons": "Todas",
+        "original_name": "Pepper Poppers",
+        "images": "Pepper_Poppers.png",
+        "price": 300,
+        "description": "Enroladinhos de pimenta recheados e fritos.",
+        "type": "Comida"
+      },
+      {
+        "id": 126,
+        "name": "Pão",
+        "seasons": "Todas",
+        "original_name": "Bread",
+        "images": "Bread.png",
+        "price": 100,
+        "description": "Pão simples feito com farinha e água.",
+        "type": "Comida"
+      },
+      {
+        "id": 127,
+        "name": "Sopa Tom Kha",
+        "seasons": "Todas",
+        "original_name": "Tom Kha Soup",
+        "images": "Tom_Kha_Soup.png",
+        "price": 200,
+        "description": "Sopa tailandesa picante e cremosa.",
+        "type": "Comida"
+      },
+      {
+        "id": 128,
+        "name": "Sopa de Truta",
+        "seasons": "Outono",
+        "original_name": "Trout Soup",
+        "images": "Trout_Soup.png",
+        "price": 150,
+        "description": "Sopa reconfortante feita com truta.",
+        "type": "Comida"
+      },
+      {
+        "id": 129,
+        "name": "Bolo de Chocolate",
+        "seasons": "Todas",
+        "original_name": "Chocolate Cake",
+        "images": "Chocolate_Cake.png",
+        "price": 250,
+        "description": "Bolo de chocolate, uma sobremesa deliciosa.",
+        "type": "Comida"
+      },
+      {
+        "id": 130,
+        "name": "Bolo Rosa",
+        "seasons": "Todas",
+        "original_name": "Pink Cake",
+        "images": "Pink_Cake.png",
+        "price": 300,
+        "description": "Bolo rosa com glacê de morango.",
+        "type": "Comida"
+      },
+      {
+        "id": 131,
+        "name": "Torta de Ruibarbo",
+        "seasons": "Primavera",
+        "original_name": "Rhubarb Pie",
+        "images": "Rhubarb_Pie.png",
+        "price": 200,
+        "description": "Torta feita com ruibarbo fresco da primavera.",
+        "type": "Comida"
+      },
+      {
+        "id": 132,
+        "name": "Biscoitos",
+        "seasons": "Todas",
+        "original_name": "Cookies",
+        "images": "Cookies.png",
+        "price": 100,
+        "description": "Biscoitos caseiros deliciosos.",
+        "type": "Comida"
+      },
+      {
+        "id": 133,
+        "name": "Espaguete",
+        "seasons": "Todas",
+        "original_name": "Spaghetti",
+        "images": "Spaghetti.png",
+        "price": 150,
+        "description": "Espaguete servido com molho de tomate.",
+        "type": "Comida"
+      },
+      {
+        "id": 134,
+        "name": "Enguia Frita",
+        "seasons": "Verão",
+        "original_name": "Fried Eel",
+        "images": "Fried_Eel.png",
+        "price": 200,
+        "description": "Enguia frita, uma refeição deliciosa para o verão.",
+        "type": "Comida"
+      },
+      {
+        "id": 135,
+        "name": "Enguia Picante",
+        "seasons": "Verão",
+        "original_name": "Spicy Eel",
+        "images": "Spicy_Eel.png",
+        "price": 250,
+        "description": "Enguia picante, um prato ousado e saboroso.",
+        "type": "Comida"
+      },
+      {
+        "id": 136,
+        "name": "Sashimi",
+        "seasons": "Todas",
+        "original_name": "Sashimi",
+        "images": "Sashimi.png",
+        "price": 300,
+        "description": "Fatias finas de peixe fresco servidas como sashimi.",
+        "type": "Comida"
+      },
+      {
+        "id": 137,
+        "name": "Rolinhos de Arroz",
+        "seasons": "Todas",
+        "original_name": "Spring Rolls",
+        "images": "Spring_Rolls.png",
+        "price": 150,
+        "description": "Rolinhos de arroz recheados com vegetais frescos.",
+        "type": "Comida"
+      },
+      {
+        "id": 138,
+        "name": "Tortilha",
+        "seasons": "Todas",
+        "original_name": "Tortilla",
+        "images": "Tortilla.png",
+        "price": 100,
+        "description": "Tortilha simples feita de farinha.",
+        "type": "Comida"
+      },
+      {
+        "id": 139,
+        "name": "Prato Vermelho",
+        "seasons": "Todas",
+        "original_name": "Red Plate",
+        "images": "Red_Plate.png",
+        "price": 350,
+        "description": "Prato requintado servido em um prato vermelho.",
+        "type": "Comida"
+      },
+      {
+        "id": 140,
+        "name": "Parmesão com Berinjela",
+        "seasons": "Todas",
+        "original_name": "Eggplant Parmesan",
+        "images": "Eggplant_Parmesan.png",
+        "price": 250,
+        "description": "Berinjela empanada e coberta com parmesão derretido.",
+        "type": "Comida"
+      },
+      {
+        "id": 141,
+        "name": "Pudim de Arroz",
+        "seasons": "Todas",
+        "original_name": "Rice Pudding",
+        "images": "Rice_Pudding.png",
+        "price": 200,
+        "description": "Sobremesa cremosa de arroz com leite.",
+        "type": "Comida"
+      },
+      {
+        "id": 142,
+        "name": "Sorvete",
+        "seasons": "Todas",
+        "original_name": "Ice Cream",
+        "images": "Ice_Cream.png",
+        "price": 200,
+        "description": "Sorvete cremoso servido de forma simples.",
+        "type": "Comida"
+      },
+      {
+        "id": 143,
+        "name": "Torta de Mirtilo",
+        "seasons": "Verão",
+        "original_name": "Blueberry Pie",
+        "images": "Blueberry_Pie.png",
+        "price": 250,
+        "description": "Torta fresca de mirtilo.",
+        "type": "Comida"
+      },
+      {
+        "id": 144,
+        "name": "Prato de Outono",
+        "seasons": "Outono",
+        "original_name": "Autumn's Bounty",
+        "images": "Autumns_Bounty.png",
+        "price": 250,
+        "description": "Prato delicioso com legumes da estação outonal.",
+        "type": "Comida"
+      },
+      {
+        "id": 145,
+        "name": "Sopa de Abóbora",
+        "seasons": "Outono",
+        "original_name": "Pumpkin Soup",
+        "images": "Pumpkin_Soup.png",
+        "price": 200,
+        "description": "Sopa aconchegante feita com abóbora.",
+        "type": "Comida"
+      },
+      {
+        "id": 146,
+        "name": "Superprato",
+        "seasons": "Todas",
+        "original_name": "Super Cucumber",
+        "images": "Super_Cucumber.png",
+        "price": 400,
+        "description": "Prato recheado com ingredientes de alta qualidade.",
+        "type": "Comida"
+      },
+      {
+        "id": 147,
+        "name": "Molho de Oxicoco",
+        "seasons": "Todas",
+        "original_name": "Cranberry Sauce",
+        "images": "Cranberry_Sauce.png",
+        "price": 100,
+        "description": "Molho doce feito com oxicocos.",
+        "type": "Comida"
+      },
+      {
+        "id": 148,
+        "name": "Recheio",
+        "seasons": "Todas",
+        "original_name": "Stuffing",
+        "images": "Stuffing.png",
+        "price": 150,
+        "description": "Recheio delicioso para carnes e outros pratos.",
+        "type": "Comida"
+      },
+      {
+        "id": 149,
+        "name": "Almoço de Fazendeiro",
+        "seasons": "Todas",
+        "original_name": "Farmer's Lunch",
+        "images": "Farmers_Lunch.png",
+        "price": 350,
+        "description": "Almoço tradicional com alimentos frescos da fazenda.",
+        "type": "Comida"
+      },
+      {
+        "id": 150,
+        "name": "Hambúrguer de Sobrevivência",
+        "seasons": "Todas",
+        "original_name": "Survival Burger",
+        "images": "Survival_Burger.png",
+        "price": 150,
+        "description": "Hambúrguer de carne recheado com legumes.",
+        "type": "Comida"
+      },
+      {
+        "id": 151,
+        "name": "Prato do Mar",
+        "seasons": "Todas",
+        "original_name": "Dish o' the Sea",
+        "images": "Dish_o_the_Sea.png",
+        "price": 250,
+        "description": "Prato saboroso preparado com frutos do mar.",
+        "type": "Comida"
+      },
+      {
+        "id": 152,
+        "name": "Refeição de Mineiro",
+        "seasons": "Todas",
+        "original_name": "Miner's Treat",
+        "images": "Miners_Treat.png",
+        "price": 200,
+        "description": "Refeição simples e energética para mineradores.",
+        "type": "Comida"
+      },
+      {
+        "id": 153,
+        "name": "Prato de Raízes",
+        "seasons": "Todas",
+        "original_name": "Roots Platter",
+        "images": "Roots_Platter.png",
+        "price": 150,
+        "description": "Prato simples feito com raízes e vegetais frescos.",
+        "type": "Comida"
+      },
+      {
+        "id": 154,
+        "name": "Açúcar",
+        "seasons": "Todas",
+        "original_name": "Sugar",
+        "images": "Sugar.png",
+        "price": 50,
+        "description": "Açúcar básico usado em diversas receitas.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 155,
+        "name": "Farinha de Trigo",
+        "seasons": "Todas",
+        "original_name": "Wheat Flour",
+        "images": "Wheat_Flour.png",
+        "price": 80,
+        "description": "Farinha de trigo refinada usada para cozinhar.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 156,
+        "name": "Óleo",
+        "seasons": "Todas",
+        "original_name": "Oil",
+        "images": "Oil.png",
+        "price": 100,
+        "description": "Óleo utilizado em várias receitas e como tempero.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 157,
+        "name": "Fokhagyma",
+        "seasons": "Todas",
+        "original_name": "Fokhagyma",
+        "images": "Fokhagyma.png",
+        "price": 60,
+        "description": "Ingrediente usado em pratos exóticos.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 158,
+        "name": "Couve",
+        "seasons": "Inverno",
+        "original_name": "Kale",
+        "images": "Kale.png",
+        "price": 100,
+        "description": "Vegetal folhoso, ótimo para várias receitas.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 159,
+        "name": "Broto de Chá",
+        "seasons": "Primavera",
+        "original_name": "Tea Sapling",
+        "images": "Tea_Sapling.png",
+        "price": 50,
+        "description": "Broto jovem de chá, que pode ser cultivado para colher folhas de chá.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 160,
+        "name": "Ruibarbo",
+        "seasons": "Primavera",
+        "original_name": "Rhubarb",
+        "images": "Rhubarb.png",
+        "price": 100,
+        "description": "Raiz comestível de sabor ácido, excelente para receitas de sobremesas.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 161,
+        "name": "Melão",
+        "seasons": "Verão",
+        "original_name": "Melon",
+        "images": "Melon.png",
+        "price": 200,
+        "description": "Fruta doce e refrescante, perfeita para o verão.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 162,
+        "name": "Tomate",
+        "seasons": "Verão",
+        "original_name": "Tomato",
+        "images": "Tomato.png",
+        "price": 50,
+        "description": "Fruta versátil usada em muitas receitas.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 163,
+        "name": "Morel",
+        "seasons": "Primavera",
+        "original_name": "Morel",
+        "images": "Morel.png",
+        "price": 150,
+        "description": "Cogumelo raro, excelente para um prato especial.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 164,
+        "name": "Mirtilo",
+        "seasons": "Verão",
+        "original_name": "Blueberry",
+        "images": "Blueberry.png",
+        "price": 100,
+        "description": "Fruta deliciosa e doce, excelente para sobremesas.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 165,
+        "name": "Broto de Samambaia",
+        "seasons": "Primavera",
+        "original_name": "Ferns",
+        "images": "Ferns.png",
+        "price": 40,
+        "description": "Broto de samambaia fresco, comestível.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 166,
+        "name": "Pimenta Quente",
+        "seasons": "Verão",
+        "original_name": "Hot Pepper",
+        "images": "Hot_Pepper.png",
+        "price": 100,
+        "description": "Fruta picante usada em várias receitas.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 167,
+        "name": "Trigo",
+        "seasons": "Todas",
+        "original_name": "Wheat",
+        "images": "Wheat.png",
+        "price": 50,
+        "description": "Grãos usados para fazer farinha e outros produtos.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 168,
+        "name": "Rabanete",
+        "seasons": "Primavera",
+        "original_name": "Radish",
+        "images": "Radish.png",
+        "price": 60,
+        "description": "Raiz comestível, levemente picante.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 169,
+        "name": "Pudim de Espuma do Mar",
+        "seasons": "Todas",
+        "original_name": "Sea Foam Pudding",
+        "images": "Sea_Foam_Pudding.png",
+        "price": 250,
+        "description": "Delicioso pudim com sabor do mar.",
+        "type": "Comida"
+      },
+      {
+        "id": 170,
+        "name": "Repolho Roxo",
+        "seasons": "Outono",
+        "original_name": "Purple Cabbage",
+        "images": "Purple_Cabbage.png",
+        "price": 100,
+        "description": "Variedade de repolho com folhas roxas.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 171,
+        "name": "Carambola",
+        "seasons": "Verão",
+        "original_name": "Starfruit",
+        "images": "Starfruit.png",
+        "price": 400,
+        "description": "Fruta doce em forma de estrela, de sabor exótico.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 172,
+        "name": "Carpa da Meia-Noite",
+        "seasons": "Todas",
+        "original_name": "Midnight Carp",
+        "images": "Midnight_Carp.png",
+        "price": 500,
+        "description": "Peixe raro encontrado em condições especiais.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 173,
+        "name": "Milho",
+        "seasons": "Verão",
+        "original_name": "Corn",
+        "images": "Corn.png",
+        "price": 50,
+        "description": "Grãos de milho doce usados em várias receitas.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 174,
+        "name": "Arroz Não Moído",
+        "seasons": "Todas",
+        "original_name": "Unmilled Rice",
+        "images": "Unmilled_Rice.png",
+        "price": 50,
+        "description": "Arroz que precisa ser moído antes de ser consumido.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 175,
+        "name": "Berinjela",
+        "seasons": "Verão",
+        "original_name": "Eggplant",
+        "images": "Eggplant.png",
+        "price": 60,
+        "description": "Vegetal roxo usado em várias receitas.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 176,
+        "name": "Broto de Arroz",
+        "seasons": "Primavera",
+        "original_name": "Rice Sprout",
+        "images": "Rice_Sprout.png",
+        "price": 40,
+        "description": "Broto de arroz, cultivado antes de crescer.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 177,
+        "name": "Alcachofra",
+        "seasons": "Outono",
+        "original_name": "Artichoke",
+        "images": "Artichoke.png",
+        "price": 100,
+        "description": "Vegetal com pétalas espinhosas e sabor delicado.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 178,
+        "name": "Tesouro de Artefato",
+        "seasons": "Todas",
+        "original_name": "Artifact Trove",
+        "images": "Artifact_Trove.png",
+        "price": 1000,
+        "description": "Baú misterioso cheio de artefatos raros.",
+        "type": "Recurso"
+      },
+      {
+        "id": 179,
+        "name": "Abóbora",
+        "seasons": "Outono",
+        "original_name": "Pumpkin",
+        "images": "Pumpkin.png",
+        "price": 150,
+        "description": "Fruta grande e laranja, perfeita para festas de outono.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 180,
+        "name": "Buquê Murcho",
+        "seasons": "Todas",
+        "original_name": "Wilted Bouquet",
+        "images": "Wilted_Bouquet.png",
+        "price": 50,
+        "description": "Buquê de flores que já murcharam.",
+        "type": "Item de presente"
+      },
+      {
+        "id": 181,
+        "name": "Couve Chinesa",
+        "seasons": "Inverno",
+        "original_name": "Chinese Cabbage",
+        "images": "Chinese_Cabbage.png",
+        "price": 120,
+        "description": "Variedade de couve originária da China.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 182,
+        "name": "Inhame",
+        "seasons": "Outono",
+        "original_name": "Yam",
+        "images": "Yam.png",
+        "price": 120,
+        "description": "Raiz comestível muito popular no outono.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 183,
+        "name": "Cantarelo",
+        "seasons": "Primavera",
+        "original_name": "Chanterelle",
+        "images": "Chanterelle.png",
+        "price": 200,
+        "description": "Cogumelo com um sabor único.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 184,
+        "name": "Oxicoco",
+        "seasons": "Outono",
+        "original_name": "Cranberry",
+        "images": "Cranberry.png",
+        "price": 100,
+        "description": "Fruto ácido, usado em sucos e sobremesas.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 185,
+        "name": "Azevinho",
+        "seasons": "Inverno",
+        "original_name": "Holly",
+        "images": "Holly.png",
+        "price": 50,
+        "description": "Planta perene com folhas pontiagudas.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 186,
+        "name": "Beterraba",
+        "seasons": "Outono",
+        "original_name": "Beet",
+        "images": "Beet.png",
+        "price": 100,
+        "description": "Raiz roxa com sabor doce e terroso.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 187,
+        "name": "Bombinha",
+        "seasons": "Todas",
+        "original_name": "Bomb",
+        "images": "Bomb.png",
+        "price": 500,
+        "description": "Explosivo com efeito devastador.",
+        "type": "Arma"
+      },
+      {
+        "id": 188,
+        "name": "Bomba",
+        "seasons": "Todas",
+        "original_name": "Bomb",
+        "images": "Bomb.png",
+        "price": 500,
+        "description": "Explosivo usado para destruir obstáculos.",
+        "type": "Arma"
+      },
+      {
+        "id": 189,
+        "name": "Megabomba",
+        "seasons": "Todas",
+        "original_name": "Mega Bomb",
+        "images": "Mega_Bomb.png",
+        "price": 1000,
+        "description": "Explosivo de grande poder destrutivo.",
+        "type": "Arma"
+      },
+      {
+        "id": 190,
+        "name": "Ovo de Avestruz",
+        "seasons": "Todas",
+        "original_name": "Ostrich Egg",
+        "images": "Ostrich_Egg.png",
+        "price": 500,
+        "description": "Ovo raro de avestra, pode ser cozido.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 191,
+        "name": "Semente de Mogno",
+        "seasons": "Todas",
+        "original_name": "Mahogany Seed",
+        "images": "Mahogany_Seed.png",
+        "price": 100,
+        "description": "Semente de uma árvore rara que cresce lentamente.",
+        "type": "Recurso"
+      },
+      {
+        "id": 192,
+        "name": "Amora-silvestre",
+        "seasons": "Verão",
+        "original_name": "Wild Blackberry",
+        "images": "Wild_Blackberry.png",
+        "price": 50,
+        "description": "Fruta silvestre doce e nutritiva.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 193,
+        "name": "Mudas de Grama",
+        "seasons": "Todas",
+        "original_name": "Grass Starter",
+        "images": "Grass_Starter.png",
+        "price": 100,
+        "description": "Sementes que podem ser plantadas para fazer crescer grama.",
+        "type": "Recurso"
+      },
+      {
+        "id": 194,
+        "name": "Cerca de Madeira de Lei",
+        "seasons": "Todas",
+        "original_name": "Wooden Fence",
+        "images": "Wooden_Fence.png",
+        "price": 10,
+        "description": "Cerca simples feita de madeira.",
+        "type": "Construção"
+      },
+      {
+        "id": 195,
+        "name": "Sementes de Amaranto",
+        "seasons": "Todas",
+        "original_name": "Amaranth Seed",
+        "images": "Amaranth_Seed.png",
+        "price": 100,
+        "description": "Semente de planta que cresce no outono.",
+        "type": "Semente"
+      },
+      {
+        "id": 196,
+        "name": "Amaranto",
+        "seasons": "Outono",
+        "original_name": "Amaranth",
+        "images": "Amaranth.png",
+        "price": 100,
+        "description": "Planta que cresce no outono, excelente para cozinhar.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 197,
+        "name": "Mudas de Uva",
+        "seasons": "Todas",
+        "original_name": "Grape Starter",
+        "images": "Grape_Starter.png",
+        "price": 60,
+        "description": "Sementes para cultivar videiras.",
+        "type": "Semente"
+      },
+      {
+        "id": 198,
+        "name": "Mudas de Lúpulo",
+        "seasons": "Primavera",
+        "original_name": "Hops Starter",
+        "images": "Hops_Starter.png",
+        "price": 60,
+        "description": "Semente para cultivar lúpulo, usada em cervejas.",
+        "type": "Semente"
+      },
+      {
+        "id": 199,
+        "name": "Pale Ale",
+        "seasons": "Todas",
+        "original_name": "Pale Ale",
+        "images": "Pale_Ale.png",
+        "price": 200,
+        "description": "Cerveja feita com lúpulo.",
+        "type": "Comida"
+      },
+      {
+        "id": 200,
+        "name": "Lúpulo",
+        "seasons": "Primavera",
+        "original_name": "Hops",
+        "images": "Hops.png",
+        "price": 60,
+        "description": "Planta usada para fazer cerveja.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 201,
+        "name": "Ovo Nulo",
+        "seasons": "Todas",
+        "original_name": "Void Egg",
+        "images": "Void_Egg.png",
+        "price": 0,
+        "description": "Ovo misterioso e de aparência sombria.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 202,
+        "name": "Maionese",
+        "seasons": "Todas",
+        "original_name": "Mayonnaise",
+        "images": "Mayonnaise.png",
+        "price": 100,
+        "description": "Feita com ovo, muito popular entre os habitantes.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 203,
+        "name": "Maionese de Ovo de Pato",
+        "seasons": "Todas",
+        "original_name": "Duck Mayonnaise",
+        "images": "Duck_Mayonnaise.png",
+        "price": 150,
+        "description": "Versão de maionese feita com ovo de pato.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 204,
+        "name": "Maionese Nula",
+        "seasons": "Todas",
+        "original_name": "Void Mayonnaise",
+        "images": "Void_Mayonnaise.png",
+        "price": 0,
+        "description": "Uma maionese misteriosa feita com ovo nulo.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 205,
+        "name": "Bolota",
+        "seasons": "Outono",
+        "original_name": "Acorn",
+        "images": "Acorn.png",
+        "price": 0,
+        "description": "Pequena bolota que pode ser plantada.",
+        "type": "Recurso"
+      },
+      {
+        "id": 206,
+        "name": "Semente de Ácer",
+        "seasons": "Todas",
+        "original_name": "Maple Seed",
+        "images": "Maple_Seed.png",
+        "price": 0,
+        "description": "Semente de uma árvore que pode ser plantada.",
+        "type": "Recurso"
+      },
+      {
+        "id": 207,
+        "name": "Pinha",
+        "seasons": "Outono",
+        "original_name": "Pine Cone",
+        "images": "Pine_Cone.png",
+        "price": 0,
+        "description": "Semente que pode ser plantada para crescer uma árvore.",
+        "type": "Recurso"
+      },
+      {
+        "id": 208,
+        "name": "Cerca de Madeira",
+        "seasons": "Todas",
+        "original_name": "Wooden Fence",
+        "images": "Wooden_Fence.png",
+        "price": 10,
+        "description": "Cerca simples de madeira.",
+        "type": "Construção"
+      },
+      {
+        "id": 209,
+        "name": "Cerca de Pedra",
+        "seasons": "Todas",
+        "original_name": "Stone Fence",
+        "images": "Stone_Fence.png",
+        "price": 20,
+        "description": "Cerca feita de pedra para proteger sua fazenda.",
+        "type": "Construção"
+      },
+      {
+        "id": 210,
+        "name": "Cerca de Ferro",
+        "seasons": "Todas",
+        "original_name": "Iron Fence",
+        "images": "Iron_Fence.png",
+        "price": 50,
+        "description": "Cerca mais forte e durável, feita de ferro.",
+        "type": "Construção"
+      },
+      {
+        "id": 211,
+        "name": "Portão",
+        "seasons": "Todas",
+        "original_name": "Gate",
+        "images": "Gate.png",
+        "price": 100,
+        "description": "Portão para abrir e fechar cercas.",
+        "type": "Construção"
+      },
+      {
+        "id": 212,
+        "name": "Guia de Pigmeu",
+        "seasons": "Todas",
+        "original_name": "Dwarf Scroll",
+        "images": "Dwarf_Scroll.png",
+        "price": 0,
+        "description": "Antigo pergaminho que pode ser lido pelo anão.",
+        "type": "Recurso"
+      },
+      {
+        "id": 213,
+        "name": "Piso de Madeira",
+        "seasons": "Todas",
+        "original_name": "Wooden Flooring",
+        "images": "Wooden_Flooring.png",
+        "price": 100,
+        "description": "Piso simples feito de madeira.",
+        "type": "Construção"
+      },
+      {
+        "id": 214,
+        "name": "Piso de Pedra",
+        "seasons": "Todas",
+        "original_name": "Stone Flooring",
+        "images": "Stone_Flooring.png",
+        "price": 150,
+        "description": "Piso de pedra durável e resistente.",
+        "type": "Construção"
+      },
+      {
+        "id": 215,
+        "name": "Argila",
+        "seasons": "Todas",
+        "original_name": "Clay",
+        "images": "Clay.png",
+        "price": 10,
+        "description": "Material usado na fabricação de tijolos.",
+        "type": "Recurso"
+      },
+      {
+        "id": 216,
+        "name": "Piso Desgastado",
+        "seasons": "Todas",
+        "original_name": "Weathered Flooring",
+        "images": "Weathered_Flooring.png",
+        "price": 50,
+        "description": "Piso antigo e desgastado.",
+        "type": "Construção"
+      },
+      {
+        "id": 217,
+        "name": "Piso de Cristal",
+        "seasons": "Todas",
+        "original_name": "Crystal Flooring",
+        "images": "Crystal_Flooring.png",
+        "price": 500,
+        "description": "Piso reluzente feito de cristais.",
+        "type": "Construção"
+      },
+      {
+        "id": 218,
+        "name": "Barra de Cobre",
+        "seasons": "Todas",
+        "original_name": "Copper Bar",
+        "images": "Copper_Bar.png",
+        "price": 75,
+        "description": "Barra de cobre, usada para fazer ferramentas.",
+        "type": "Recurso"
+      },
+      {
+        "id": 219,
+        "name": "Barra de Ferro",
+        "seasons": "Todas",
+        "original_name": "Iron Bar",
+        "images": "Iron_Bar.png",
+        "price": 150,
+        "description": "Barra de ferro, usada para ferramentas e construção.",
+        "type": "Recurso"
+      },
+      {
+        "id": 220,
+        "name": "Barra de Ouro",
+        "seasons": "Todas",
+        "original_name": "Gold Bar",
+        "images": "Gold_Bar.png",
+        "price": 250,
+        "description": "Barra de ouro, usada para itens de alta qualidade.",
+        "type": "Recurso"
+      },
+      {
+        "id": 221,
+        "name": "Barra de Irídio",
+        "seasons": "Todas",
+        "original_name": "Iridium Bar",
+        "images": "Iridium_Bar.png",
+        "price": 1000,
+        "description": "Barra de irídio, o material mais resistente e valioso.",
+        "type": "Recurso"
+      },
+      {
+        "id": 222,
+        "name": "Quartzo Refinado",
+        "seasons": "Todas",
+        "original_name": "Refined Quartz",
+        "images": "Refined_Quartz.png",
+        "price": 150,
+        "description": "Quartzo refinado, utilizado para fabricar vários itens.",
+        "type": "Recurso"
+      },
+      {
+        "id": 223,
+        "name": "Mel",
+        "seasons": "Todas",
+        "original_name": "Honey",
+        "images": "Honey.png",
+        "price": 100,
+        "description": "Mel doce produzido pelas abelhas.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 224,
+        "name": "Conjunto de Chá",
+        "seasons": "Todas",
+        "original_name": "Tea Set",
+        "images": "Tea_Set.png",
+        "price": 500,
+        "description": "Conjunto de chá elegante.",
+        "type": "Item de presente"
+      },
+      {
+        "id": 225,
+        "name": "Pedra",
+        "seasons": "Todas",
+        "original_name": "Stone",
+        "images": "Stone.png",
+        "price": 0,
+        "description": "Pedra básica coletada de pedregulho.",
+        "type": "Recurso"
+      },
+      {
+        "id": 226,
+        "name": "Cerveja",
+        "seasons": "Todas",
+        "original_name": "Beer",
+        "images": "Beer.png",
+        "price": 200,
+        "description": "Bebida fermentada feita de cevada.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 227,
+        "name": "Semente Rara",
+        "seasons": "Todas",
+        "original_name": "Rare Seed",
+        "images": "Rare_Seed.png",
+        "price": 1000,
+        "description": "Semente rara que cresce uma planta especial no Outono.",
+        "type": "Semente"
+      },
+      {
+        "id": 228,
+        "name": "Vinho",
+        "seasons": "Todas",
+        "original_name": "Wine",
+        "images": "Wine.png",
+        "price": 250,
+        "description": "Bebida fermentada feita a partir de uvas.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 229,
+        "name": "Suco",
+        "seasons": "Todas",
+        "original_name": "Juice",
+        "images": "Juice.png",
+        "price": 150,
+        "description": "Bebida refrescante feita a partir de frutas.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 230,
+        "name": "Fertilizante Básico",
+        "seasons": "Todas",
+        "original_name": "Basic Fertilizer",
+        "images": "Basic_Fertilizer.png",
+        "price": 50,
+        "description": "Fertilizante que melhora o solo e aumenta a qualidade das colheitas.",
+        "type": "Item de cultivo"
+      },
+      {
+        "id": 231,
+        "name": "Fertilizante de Qualidade",
+        "seasons": "Todas",
+        "original_name": "Quality Fertilizer",
+        "images": "Quality_Fertilizer.png",
+        "price": 100,
+        "description": "Fertilizante de alta qualidade que melhora o solo e aumenta a qualidade das colheitas.",
+        "type": "Item de cultivo"
+      },
+      {
+        "id": 232,
+        "name": "Solo Retentor",
+        "seasons": "Todas",
+        "original_name": "Retaining Soil",
+        "images": "Retaining_Soil.png",
+        "price": 100,
+        "description": "Solo especial que retém mais água, evitando que as plantas sequem tão rapidamente.",
+        "type": "Item de cultivo"
+      },
+      {
+        "id": 233,
+        "name": "Solo Retentor de Qualidade",
+        "seasons": "Todas",
+        "original_name": "Quality Retaining Soil",
+        "images": "Quality_Retaining_Soil.png",
+        "price": 200,
+        "description": "Solo que retém água por mais tempo e melhora a qualidade das colheitas.",
+        "type": "Item de cultivo"
+      },
+      {
+        "id": 234,
+        "name": "Concha",
+        "seasons": "Todas",
+        "original_name": "Clam",
+        "images": "Clam.png",
+        "price": 50,
+        "description": "Concha de molusco encontrada na praia.",
+        "type": "Recurso"
+      },
+      {
+        "id": 235,
+        "name": "Abóbora Dourada",
+        "seasons": "Outono",
+        "original_name": "Golden Pumpkin",
+        "images": "Golden_Pumpkin.png",
+        "price": 1000,
+        "description": "Abóbora rara que brilha com um brilho dourado.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 236,
+        "name": "Minério de Cobre",
+        "seasons": "Todas",
+        "original_name": "Copper Ore",
+        "images": "Copper_Ore.png",
+        "price": 50,
+        "description": "Minério utilizado para fabricar barras de cobre.",
+        "type": "Recurso"
+      },
+      {
+        "id": 237,
+        "name": "Minério de Ferro",
+        "seasons": "Todas",
+        "original_name": "Iron Ore",
+        "images": "Iron_Ore.png",
+        "price": 150,
+        "description": "Minério utilizado para fabricar barras de ferro.",
+        "type": "Recurso"
+      },
+      {
+        "id": 238,
+        "name": "Carvão",
+        "seasons": "Todas",
+        "original_name": "Coal",
+        "images": "Coal.png",
+        "price": 25,
+        "description": "Carvão utilizado para alimentar fornos e fornalhas.",
+        "type": "Recurso"
+      },
+      {
+        "id": 239,
+        "name": "Minério de Ouro",
+        "seasons": "Todas",
+        "original_name": "Gold Ore",
+        "images": "Gold_Ore.png",
+        "price": 250,
+        "description": "Minério utilizado para fabricar barras de ouro.",
+        "type": "Recurso"
+      },
+      {
+        "id": 240,
+        "name": "Minério de Irídio",
+        "seasons": "Todas",
+        "original_name": "Iridium Ore",
+        "images": "Iridium_Ore.png",
+        "price": 1000,
+        "description": "Minério utilizado para fabricar barras de irídio.",
+        "type": "Recurso"
+      },
+      {
+        "id": 241,
+        "name": "Madeira",
+        "seasons": "Todas",
+        "original_name": "Wood",
+        "images": "Wood.png",
+        "price": 1,
+        "description": "Madeira coletada de árvores.",
+        "type": "Recurso"
+      },
+      {
+        "id": 242,
+        "name": "Concha de Náutilo",
+        "seasons": "Primavera",
+        "original_name": "Nautilus Shell",
+        "images": "Nautilus_Shell.png",
+        "price": 100,
+        "description": "Concha de náutilo encontrada na praia durante a primavera.",
+        "type": "Recurso"
+      },
+      {
+        "id": 243,
+        "name": "Coral",
+        "seasons": "Todas",
+        "original_name": "Coral",
+        "images": "Coral.png",
+        "price": 50,
+        "description": "Coral encontrado na praia.",
+        "type": "Recurso"
+      },
+      {
+        "id": 244,
+        "name": "Concha Arco-Íris",
+        "seasons": "Todas",
+        "original_name": "Rainbow Shell",
+        "images": "Rainbow_Shell.png",
+        "price": 250,
+        "description": "Concha rara e colorida encontrada na praia.",
+        "type": "Recurso"
+      },
+      {
+        "id": 245,
+        "name": "Café",
+        "seasons": "Todas",
+        "original_name": "Coffee",
+        "images": "Coffee.png",
+        "price": 150,
+        "description": "Bebida estimulante feita a partir de grãos de café.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 246,
+        "name": "Café de Jardim",
+        "seasons": "Todas",
+        "original_name": "Garden Coffee",
+        "images": "Garden_Coffee.png",
+        "price": 300,
+        "description": "Café cultivado no jardim.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 247,
+        "name": "Ouriço-do-mar",
+        "seasons": "Todas",
+        "original_name": "Sea Urchin",
+        "images": "Sea_Urchin.png",
+        "price": 120,
+        "description": "Ouriço do mar encontrado na praia.",
+        "type": "Recurso"
+      },
+      {
+        "id": 248,
+        "name": "Uva",
+        "seasons": "Verão, Outono",
+        "original_name": "Grape",
+        "images": "Grape.png",
+        "price": 80,
+        "description": "Fruto da videira.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 249,
+        "name": "Cebolinha",
+        "seasons": "Primavera",
+        "original_name": "Green Onion",
+        "images": "Green_Onion.png",
+        "price": 20,
+        "description": "Cebolinha fresca encontrada na Primavera.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 250,
+        "name": "Morango",
+        "seasons": "Primavera",
+        "original_name": "Strawberry",
+        "images": "Strawberry.png",
+        "price": 100,
+        "description": "Fruta doce e suculenta cultivada na Primavera.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 251,
+        "name": "Piso de Palha",
+        "seasons": "Todas",
+        "original_name": "Straw Floor",
+        "images": "Straw_Floor.png",
+        "price": 50,
+        "description": "Piso feito de palha, utilizado para decorar.",
+        "type": "Decoração"
+      },
+      {
+        "id": 252,
+        "name": "Ervilha-de-Cheiro",
+        "seasons": "Primavera",
+        "original_name": "Sweet Pea",
+        "images": "Sweet_Pea.png",
+        "price": 50,
+        "description": "Flores bonitas encontradas na Primavera.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 253,
+        "name": "Lanchinho",
+        "seasons": "Todas",
+        "original_name": "Maki Roll",
+        "images": "Maki_Roll.png",
+        "price": 200,
+        "description": "Comida japonesa feita com arroz e peixe.",
+        "type": "Comida"
+      },
+      {
+        "id": 254,
+        "name": "Cogumelo Comum",
+        "seasons": "Outono",
+        "original_name": "Common Mushroom",
+        "images": "Common_Mushroom.png",
+        "price": 100,
+        "description": "Cogumelo encontrado nas florestas durante o Outono.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 255,
+        "name": "Caminho de Madeira",
+        "seasons": "Todas",
+        "original_name": "Wood Path",
+        "images": "Wood_Path.png",
+        "price": 50,
+        "description": "Caminho feito de madeira utilizado para decorar.",
+        "type": "Decoração"
+      },
+      {
+        "id": 256,
+        "name": "Ameixa Selvagem",
+        "seasons": "Primavera",
+        "original_name": "Wild Plum",
+        "images": "Wild_Plum.png",
+        "price": 100,
+        "description": "Fruta selvagem encontrada na Primavera.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 257,
+        "name": "Caminho de Cascalho",
+        "seasons": "Todas",
+        "original_name": "Gravel Path",
+        "images": "Gravel_Path.png",
+        "price": 25,
+        "description": "Caminho feito de cascalho, usado para decorar.",
+        "type": "Decoração"
+      },
+      {
+        "id": 258,
+        "name": "Avelã",
+        "seasons": "Outono",
+        "original_name": "Hazelnut",
+        "images": "Hazelnut.png",
+        "price": 50,
+        "description": "Noz encontrada durante o Outono.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 259,
+        "name": "Caminho de Cristal",
+        "seasons": "Todas",
+        "original_name": "Crystal Path",
+        "images": "Crystal_Path.png",
+        "price": 200,
+        "description": "Caminho decorativo feito com cristais.",
+        "type": "Decoração"
+      },
+      {
+        "id": 260,
+        "name": "Amora",
+        "seasons": "Verão",
+        "original_name": "Blackberry",
+        "images": "Blackberry.png",
+        "price": 25,
+        "description": "Fruta doce e pequena encontrada no Verão.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 261,
+        "name": "Caminho de Pedra Arredondada",
+        "seasons": "Todas",
+        "original_name": "Round Stone Path",
+        "images": "Round_Stone_Path.png",
+        "price": 100,
+        "description": "Caminho feito com pedras arredondadas.",
+        "type": "Decoração"
+      },
+      {
+        "id": 262,
+        "name": "Raiz de Inverno",
+        "seasons": "Inverno",
+        "original_name": "Winter Root",
+        "images": "Winter_Root.png",
+        "price": 40,
+        "description": "Raiz encontrada durante o Inverno.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 263,
+        "name": "Ovo de Gosma",
+        "seasons": "Todas",
+        "original_name": "Slime Egg",
+        "images": "Slime_Egg.png",
+        "price": 1000,
+        "description": "Ovo de gosma encontrado em cavernas.",
+        "type": "Recurso"
+      },
+      {
+        "id": 264,
+        "name": "Fruta de Cristal",
+        "seasons": "Todas",
+        "original_name": "Crystal Fruit",
+        "images": "Crystal_Fruit.png",
+        "price": 150,
+        "description": "Fruta rara encontrada no Inverno.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 265,
+        "name": "Caminho de Pedras Polidas",
+        "seasons": "Todas",
+        "original_name": "Polished Stone Path",
+        "images": "Polished_Stone_Path.png",
+        "price": 300,
+        "description": "Caminho decorativo feito com pedras polidas.",
+        "type": "Decoração"
+      },
+      {
+        "id": 266,
+        "name": "Inhame de Neve",
+        "seasons": "Inverno",
+        "original_name": "Snow Yam",
+        "images": "Snow_Yam.png",
+        "price": 75,
+        "description": "Raiz encontrada no Inverno.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 267,
+        "name": "Cereja de Joia Doce",
+        "seasons": "Verão",
+        "original_name": "Sweet Gem Berry",
+        "images": "Sweet_Gem_Berry.png",
+        "price": 10000,
+        "description": "Fruta rara e cara encontrada no Verão.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 268,
+        "name": "Flor de Açafrão",
+        "seasons": "Outono",
+        "original_name": "Crocus",
+        "images": "Crocus.png",
+        "price": 25,
+        "description": "Flor bonita encontrada no Outono.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 269,
+        "name": "Vinagre",
+        "seasons": "Todas",
+        "original_name": "Vinegar",
+        "images": "Vinegar.png",
+        "price": 100,
+        "description": "Condimento usado em várias receitas.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 270,
+        "name": "Cogumelo Vermelho",
+        "seasons": "Outono",
+        "original_name": "Red Mushroom",
+        "images": "Red_Mushroom.png",
+        "price": 100,
+        "description": "Cogumelo vermelho encontrado nas florestas.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 271,
+        "name": "Girassol",
+        "seasons": "Verão",
+        "original_name": "Sunflower",
+        "images": "Sunflower.png",
+        "price": 100,
+        "description": "Flor brilhante e amarela do Verão.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 272,
+        "name": "Cogumelo Roxo",
+        "seasons": "Outono",
+        "original_name": "Purple Mushroom",
+        "images": "Purple_Mushroom.png",
+        "price": 200,
+        "description": "Cogumelo raro encontrado nas cavernas.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 273,
+        "name": "Arroz",
+        "seasons": "Verão, Outono",
+        "original_name": "Rice",
+        "images": "Rice.png",
+        "price": 50,
+        "description": "Ingrediente utilizado em várias receitas.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 249,
+        "name": "Cebolinha",
+        "seasons": "Primavera",
+        "original_name": "Green Onion",
+        "images": "Green_Onion.png",
+        "price": 20,
+        "description": "Cebolinha fresca encontrada na Primavera.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 250,
+        "name": "Morango",
+        "seasons": "Primavera",
+        "original_name": "Strawberry",
+        "images": "Strawberry.png",
+        "price": 100,
+        "description": "Fruta doce e suculenta cultivada na Primavera.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 251,
+        "name": "Piso de Palha",
+        "seasons": "Todas",
+        "original_name": "Straw Floor",
+        "images": "Straw_Floor.png",
+        "price": 50,
+        "description": "Piso feito de palha, utilizado para decorar.",
+        "type": "Decoração"
+      },
+      {
+        "id": 252,
+        "name": "Ervilha-de-Cheiro",
+        "seasons": "Primavera",
+        "original_name": "Sweet Pea",
+        "images": "Sweet_Pea.png",
+        "price": 50,
+        "description": "Flores bonitas encontradas na Primavera.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 253,
+        "name": "Lanchinho",
+        "seasons": "Todas",
+        "original_name": "Maki Roll",
+        "images": "Maki_Roll.png",
+        "price": 200,
+        "description": "Comida japonesa feita com arroz e peixe.",
+        "type": "Comida"
+      },
+      {
+        "id": 254,
+        "name": "Cogumelo Comum",
+        "seasons": "Outono",
+        "original_name": "Common Mushroom",
+        "images": "Common_Mushroom.png",
+        "price": 100,
+        "description": "Cogumelo encontrado nas florestas durante o Outono.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 255,
+        "name": "Caminho de Madeira",
+        "seasons": "Todas",
+        "original_name": "Wood Path",
+        "images": "Wood_Path.png",
+        "price": 50,
+        "description": "Caminho feito de madeira utilizado para decorar.",
+        "type": "Decoração"
+      },
+      {
+        "id": 256,
+        "name": "Ameixa Selvagem",
+        "seasons": "Primavera",
+        "original_name": "Wild Plum",
+        "images": "Wild_Plum.png",
+        "price": 100,
+        "description": "Fruta selvagem encontrada na Primavera.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 257,
+        "name": "Caminho de Cascalho",
+        "seasons": "Todas",
+        "original_name": "Gravel Path",
+        "images": "Gravel_Path.png",
+        "price": 25,
+        "description": "Caminho feito de cascalho, usado para decorar.",
+        "type": "Decoração"
+      },
+      {
+        "id": 258,
+        "name": "Avelã",
+        "seasons": "Outono",
+        "original_name": "Hazelnut",
+        "images": "Hazelnut.png",
+        "price": 50,
+        "description": "Noz encontrada durante o Outono.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 259,
+        "name": "Caminho de Cristal",
+        "seasons": "Todas",
+        "original_name": "Crystal Path",
+        "images": "Crystal_Path.png",
+        "price": 200,
+        "description": "Caminho decorativo feito com cristais.",
+        "type": "Decoração"
+      },
+      {
+        "id": 260,
+        "name": "Amora",
+        "seasons": "Verão",
+        "original_name": "Blackberry",
+        "images": "Blackberry.png",
+        "price": 25,
+        "description": "Fruta doce e pequena encontrada no Verão.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 261,
+        "name": "Caminho de Pedra Arredondada",
+        "seasons": "Todas",
+        "original_name": "Round Stone Path",
+        "images": "Round_Stone_Path.png",
+        "price": 100,
+        "description": "Caminho feito com pedras arredondadas.",
+        "type": "Decoração"
+      },
+      {
+        "id": 262,
+        "name": "Raiz de Inverno",
+        "seasons": "Inverno",
+        "original_name": "Winter Root",
+        "images": "Winter_Root.png",
+        "price": 40,
+        "description": "Raiz encontrada durante o Inverno.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 263,
+        "name": "Ovo de Gosma",
+        "seasons": "Todas",
+        "original_name": "Slime Egg",
+        "images": "Slime_Egg.png",
+        "price": 1000,
+        "description": "Ovo de gosma encontrado em cavernas.",
+        "type": "Recurso"
+      },
+      {
+        "id": 264,
+        "name": "Fruta de Cristal",
+        "seasons": "Todas",
+        "original_name": "Crystal Fruit",
+        "images": "Crystal_Fruit.png",
+        "price": 150,
+        "description": "Fruta rara encontrada no Inverno.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 265,
+        "name": "Caminho de Pedras Polidas",
+        "seasons": "Todas",
+        "original_name": "Polished Stone Path",
+        "images": "Polished_Stone_Path.png",
+        "price": 300,
+        "description": "Caminho decorativo feito com pedras polidas.",
+        "type": "Decoração"
+      },
+      {
+        "id": 266,
+        "name": "Inhame de Neve",
+        "seasons": "Inverno",
+        "original_name": "Snow Yam",
+        "images": "Snow_Yam.png",
+        "price": 75,
+        "description": "Raiz encontrada no Inverno.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 267,
+        "name": "Cereja de Joia Doce",
+        "seasons": "Verão",
+        "original_name": "Sweet Gem Berry",
+        "images": "Sweet_Gem_Berry.png",
+        "price": 10000,
+        "description": "Fruta rara e cara encontrada no Verão.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 268,
+        "name": "Flor de Açafrão",
+        "seasons": "Outono",
+        "original_name": "Crocus",
+        "images": "Crocus.png",
+        "price": 25,
+        "description": "Flor bonita encontrada no Outono.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 269,
+        "name": "Vinagre",
+        "seasons": "Todas",
+        "original_name": "Vinegar",
+        "images": "Vinegar.png",
+        "price": 100,
+        "description": "Condimento usado em várias receitas.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 270,
+        "name": "Cogumelo Vermelho",
+        "seasons": "Outono",
+        "original_name": "Red Mushroom",
+        "images": "Red_Mushroom.png",
+        "price": 100,
+        "description": "Cogumelo vermelho encontrado nas florestas.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 271,
+        "name": "Girassol",
+        "seasons": "Verão",
+        "original_name": "Sunflower",
+        "images": "Sunflower.png",
+        "price": 100,
+        "description": "Flor brilhante e amarela do Verão.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 272,
+        "name": "Cogumelo Roxo",
+        "seasons": "Outono",
+        "original_name": "Purple Mushroom",
+        "images": "Purple_Mushroom.png",
+        "price": 200,
+        "description": "Cogumelo raro encontrado nas cavernas.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 273,
+        "name": "Arroz",
+        "seasons": "Verão, Outono",
+        "original_name": "Rice",
+        "images": "Rice.png",
+        "price": 50,
+        "description": "Ingrediente utilizado em várias receitas.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 274,
+        "name": "Queijo",
+        "seasons": "Todas",
+        "original_name": "Cheese",
+        "images": "Cheese.png",
+        "price": 150,
+        "description": "Queijo feito a partir do leite de vaca.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 275,
+        "name": "Queijo de Cabra",
+        "seasons": "Todas",
+        "original_name": "Goat Cheese",
+        "images": "Goat_Cheese.png",
+        "price": 200,
+        "description": "Queijo feito a partir do leite de cabra.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 276,
+        "name": "Tecido",
+        "seasons": "Todas",
+        "original_name": "Cloth",
+        "images": "Cloth.png",
+        "price": 200,
+        "description": "Tecido feito de fios.",
+        "type": "Recurso"
+      },
+      {
+        "id": 277,
+        "name": "Trufa",
+        "seasons": "Inverno",
+        "original_name": "Truffle",
+        "images": "Truffle.png",
+        "price": 625,
+        "description": "Fungo raro encontrado no Outono e Inverno.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 278,
+        "name": "Óleo de Trufas",
+        "seasons": "Todas",
+        "original_name": "Truffle Oil",
+        "images": "Truffle_Oil.png",
+        "price": 1000,
+        "description": "Óleo extraído das trufas.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 279,
+        "name": "Grão de Café",
+        "seasons": "Verão",
+        "original_name": "Coffee Bean",
+        "images": "Coffee_Bean.png",
+        "price": 15,
+        "description": "Grão utilizado para cultivar café.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 280,
+        "name": "Fruta-estrela",
+        "seasons": "Verão",
+        "original_name": "Starfruit",
+        "images": "Starfruit.png",
+        "price": 400,
+        "description": "Fruta exótica e doce encontrada no Verão.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 281,
+        "name": "Leite de Cabra",
+        "seasons": "Todas",
+        "original_name": "Goat Milk",
+        "images": "Goat_Milk.png",
+        "price": 150,
+        "description": "Leite obtido de cabras.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 282,
+        "name": "Ovo de Gosma",
+        "seasons": "Todas",
+        "original_name": "Slime Egg",
+        "images": "Slime_Egg.png",
+        "price": 1000,
+        "description": "Ovo de gosma encontrado em cavernas.",
+        "type": "Recurso"
+      },
+      {
+        "id": 283,
+        "name": "Ovo de Gosma",
+        "seasons": "Todas",
+        "original_name": "Slime Egg",
+        "images": "Slime_Egg.png",
+        "price": 1000,
+        "description": "Ovo de gosma encontrado em cavernas.",
+        "type": "Recurso"
+      },
+      {
+        "id": 284,
+        "name": "Lã",
+        "seasons": "Todas",
+        "original_name": "Wool",
+        "images": "Wool.png",
+        "price": 340,
+        "description": "Lã coletada de ovelhas.",
+        "type": "Recurso"
+      },
+      {
+        "id": 285,
+        "name": "Munição Explosiva",
+        "seasons": "Todas",
+        "original_name": "Explosive Ammo",
+        "images": "Explosive_Ammo.png",
+        "price": 250,
+        "description": "Munição usada para detonar.",
+        "type": "Recurso"
+      },
+      {
+        "id": 286,
+        "name": "Ovo de Pata",
+        "seasons": "Primavera",
+        "original_name": "Duck Egg",
+        "images": "Duck_Egg.png",
+        "price": 200,
+        "description": "Ovo de pato, usado em diversas receitas.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 287,
+        "name": "Pena de Pato",
+        "seasons": "Todas",
+        "original_name": "Duck Feather",
+        "images": "Duck_Feather.png",
+        "price": 50,
+        "description": "Pena de pato, usada para criar itens especiais.",
+        "type": "Recurso"
+      },
+      {
+        "id": 288,
+        "name": "Caviar",
+        "seasons": "Todas",
+        "original_name": "Caviar",
+        "images": "Caviar.png",
+        "price": 1000,
+        "description": "Alimento sofisticado feito de ovos de peixe.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 289,
+        "name": "Pé de Coelho",
+        "seasons": "Todas",
+        "original_name": "Rabbit's Foot",
+        "images": "Rabbits_Foot.png",
+        "price": 500,
+        "description": "Objeto raro, aumenta as chances de sorte.",
+        "type": "Recurso"
+      },
+      {
+        "id": 290,
+        "name": "Pedra",
+        "seasons": "Todas",
+        "original_name": "Stone",
+        "images": "Stone.png",
+        "price": 5,
+        "description": "Comum, usada para vários itens.",
+        "type": "Recurso"
+      },
+      {
+        "id": 291,
+        "name": "Fruta Antiga",
+        "seasons": "Todas",
+        "original_name": "Ancient Fruit",
+        "images": "Ancient_Fruit.png",
+        "price": 550,
+        "description": "Fruta rara e exótica.",
+        "type": "Ingrediente"
+      },
+      {
+        "id": 292,
+        "name": "Sopa de Alga",
+        "seasons": "Todas",
+        "original_name": "Sea Cucumber",
+        "images": "Sea_Cucumber.png",
+        "price": 200,
+        "description": "Sopa feita com algas marinhas.",
+        "type": "Comida"
+      },
+      {
+        "id": 293,
+        "name": "Caldo Pálido",
+        "seasons": "Todas",
+        "original_name": "Pale Broth",
+        "images": "Pale_Broth.png",
+        "price": 50,
+        "description": "Caldo simples e nutritivo.",
+        "type": "Comida"
+      },
+      {
+        "id": 294,
+        "name": "Buquê",
+        "seasons": "Todas",
+        "original_name": "Bouquet",
+        "images": "Bouquet.png",
+        "price": 200,
+        "description": "Usado para propor casamento.",
+        "type": "Item Especial"
+      },
+      {
+        "id": 295,
+        "name": "Hidromel",
+        "seasons": "Todas",
+        "original_name": "Mead",
+        "images": "Mead.png",
+        "price": 200,
+        "description": "Bebida alcoólica feita de mel.",
+        "type": "Bebida"
+      },
+      {
+        "id": 296,
+        "name": "Pingente de Sereia",
+        "seasons": "Todas",
+        "original_name": "Mermaid Pendant",
+        "images": "Mermaid_Pendant.png",
+        "price": 500,
+        "description": "Pingente utilizado para casamento.",
+        "type": "Item Especial"
+      },
+      {
+        "id": 297,
+        "name": "Bloco de Bateria",
+        "seasons": "Todas",
+        "original_name": "Battery Pack",
+        "images": "Battery_Pack.png",
+        "price": 100,
+        "description": "Fonte de energia usada em vários dispositivos.",
+        "type": "Recurso"
+      },
+      {
+        "id": 298,
+        "name": "Bloco de Flauta",
+        "seasons": "Todas",
+        "original_name": "Flute Block",
+        "images": "Flute_Block.png",
+        "price": 50,
+        "description": "Bloco musical usado para fazer sons.",
+        "type": "Recurso"
+      },
+      {
+        "id": 299,
+        "name": "Solo Foliar",
+        "seasons": "Todas",
+        "original_name": "Leaf Soil",
+        "images": "Leaf_Soil.png",
+        "price": 25,
+        "description": "Solo fértil usado para cultivo.",
+        "type": "Recurso"
       }
     ],
     "tasks": [

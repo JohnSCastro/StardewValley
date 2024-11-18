@@ -33,6 +33,7 @@ Siga as etapas abaixo para configurar o projeto localmente:
    ```bash
    git clone https://github.com/seu-usuario/stardew-valley-wiki.git
    cd stardew-valley-wiki
+   ```
 
   ```bash
     npm install

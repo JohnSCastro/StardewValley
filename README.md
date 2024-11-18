@@ -30,24 +30,24 @@ Certifique-se de ter instalado:
 Siga as etapas abaixo para configurar o projeto localmente:
 
 1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/stardew-valley-wiki.git
-   cd stardew-valley-wiki
+```bash
+  git clone https://github.com/seu-usuario/stardew-valley-wiki.git
+  cd stardew-valley-wiki
    ```
 
-  ```bash
-    npm install
-    # ou, se preferir o yarn
-    yarn install
-  ```
+```bash
+  npm install
+  # ou, se preferir o yarn
+  yarn install
+```
 
 2. Inicie o servidor de desenvolvimento:
 
-  ```bash
+```bash
   npm start
   # ou
   yarn start
-  ```
+```
 
 3. Abra o navegador e acesse http://localhost:3000.
 

@@ -1,6 +1,6 @@
 # Stardew Valley Wiki
 
-Este é um projeto de uma Wiki interativa de *Stardew Valley*, desenvolvida em **React**. O objetivo é oferecer informações detalhadas sobre personagens, itens, tarefas e easter eggs do jogo *Stardew Valley*. Esse projeto é uma excelente adição ao portfólio, demonstrando habilidades em desenvolvimento front-end com React, gerenciamento de dados locais e design de interface.
+Este é um projeto de uma Wiki interativa de *Stardew Valley*, desenvolvida em **React**. O objetivo é oferecer informações detalhadas sobre personagens, itens, tarefas e easter eggs do jogo *Stardew Valley*. Esse projeto é para adição ao portfólio, demonstrando minhas habilidades em desenvolvimento front-end com React, gerenciamento de dados locais e design de interface.
 
 ## 📋 Índice
 - [Funcionalidades](#-funcionalidades)

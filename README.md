@@ -55,7 +55,7 @@ Siga as etapas abaixo para configurar o projeto localmente:
 ```
 stardew-valley-wiki/
 ├── public/                     
-│   ├── images/                 # Imagens de personagens e itens (adicionar imagens conforme necessário)
+│   ├── images/                 # Imagens de personagens e itens
 ├── src/                        
 │   ├── components/             # Componentes reutilizáveis
 │   │   ├── CharacterList.js    # Componente para listar personagens
